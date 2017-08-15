@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin: 0px; padding: 0px; }
+html,body{ height:100%; font-family: Microsoft YaHei; font-size: 14px; }
+body a{outline:none;blr:expression(this.onFocus=this.blur()); -moz-outline-style: none;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul,li{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+abbr,acronym{border:0}
+body,button,input,select,textarea{font-family:"Microsoft Yahei"; }
+a{ text-decoration:none; color:#000;}
+a:link {color:#000;}
+a:visited {color:#000;}
+a:hover {color:#000;}
+a:active {color:#000;}
+button,input,select,textarea{ border:0px solid #394862;}
+input[text]{ cursor:pointer;}
+iframe{ padding:0px; margin:0px; border:0px;}
+input.input_flie[type=file]{ border:1px solid #394862!important; height:28px; line-height:28px; width:200px; position:relative; top:-4px; margin:0px 5px;}
+@-moz-document url-prefix(){input.input_flie[type=file]{
+    border:1px solid #394862!important; height:28px; line-height:28px; width:200px; position:relative; top:0!important; margin:0px 5px;}}
+/*html5*/
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block;}
+.marginbtm10{ margin-bottom:10px;}
+.fr{ float:right!important;}
+input,button{ outline:none;}
+
+/*文字排版*/
+.f12{font-size:12px}
+.f14{font-size:14px}
+.f16{font-size:16px; font-weight:600;}
+.f18{font-size:18px;}
+.f20{font-size:20px; font-weight:600;}
+.f22{font-size:22px;}
+.fb{font-weight:bold;}
+.t2{text-indent:2em;}
+.tcenter{ text-align:center;}
+
+/*margin style*/
+.t_margin5px{ margin-top:5px;}
+.r_margin5px{ margin-right:5px;}
+.b_margin5px{ margin-bottom:5px;}
+.l_margin5px{ margin-left:5px;}
+.t_margin10px{ margin-top:10px;}
+.r_margin10px{ margin-right:10px;}
+.b_margin10px{ margin-bottom:10px;}
+.l_margin10px{ margin-left:10px;}
+/*padding style*/
+.p0{ padding-left:0px !important;}
+.pl10{ padding-left:10px !important;}
+.l12{ padding-left:8px !important; font-size:12px !important; line-height:16px}
+/*line style*/
+.line{ height:4px; background:#f28f0f; overflow:hidden;}
+.line2{ height:1px; background:#ccc; overflow:hidden; margin:2px 0px 5px 0px;}
+.line3{ height:8px; background:#fff; overflow:hidden; margin:0px 0px 3px 0px;}
+.line4{ height:1px; background:#ccc; overflow:hidden; margin:5px 0px 10px 0px;}
+
+
+
+/*.red{ color:#d43e3d!important;}*/
+/*.green{ color:#54bd3c!important;}*/
+table.text-center tr td{ text-align: center!important; padding-left: 0!important;}
