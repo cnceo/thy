@@ -183,7 +183,7 @@
                 </dl>
                 <button class="btn-submit" type="submit" data-form-sbm="1483930096400.321">登录</button><br>
 
-               
+                <div align="center" style="color: #333">还没有注册，<a href="http://www.yyygwl.cn/index.php/user/r/5D5554" style="color:#7f6173">点击注册</a></div>
             </form>
         </section>
         <footer>

@@ -10,8 +10,8 @@ ini_set('display_errors', 'Off');
 //数据库配置
 $dbconf                        = array(
     "conn" => "localhost",    //数据库主机
-    "user" => "root",        //数据库帐号
-    "pwd" => "5671893",        //数据库密码
+    "user" => "thy",        //数据库帐号
+    "pwd" => "www.123.com",        //数据库密码
     "db" => "xc" //数据库名称
 );
 $conf['db']['prename']         = 'blast_'; //表前缀

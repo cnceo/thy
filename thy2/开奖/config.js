@@ -1526,14 +1526,14 @@ exports.restartTime=0;
 
 exports.submit={
 
-	host:'localhost',
+	host:'127.0.0.1',
 	path:'/index.php/dataSource/kj'
 }
 
 exports.dbinfo={
-	host:'localhost',
-	user:'root',
-	password:'5671893',
+	host:'103.214.170.32',
+	user:'thy',
+	password:'www.123.com',
 	database:'xc'
 
 }
