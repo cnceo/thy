@@ -1,4 +1,0 @@
-<IfModule mod_rewrite.c>
-RewriteEngine on
-RewriteRule 404.jsp 404.html
-</IfModule>
