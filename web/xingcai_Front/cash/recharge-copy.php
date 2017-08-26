@@ -4,6 +4,7 @@
 <link rel="stylesheet" type="text/css" href="/newskin/css/manager.css">
 <link rel="stylesheet" href="/css/nsc/chong-list.css?v=1.16.11.8" />
 
+<script type="text/javascript" src="/js/clipboard/clipboard.min.js"></script>
 
 <?php
 $this->freshSession();
@@ -352,11 +353,11 @@ height:15px; width:15px
     </tr>
 	<tr>
       <td align="right">收款户名：</td>
-      <td><input id="bank-username" readonly value="<?=$memberBank["username"]?>" /><input type=button value="复制" onclick="jsCopyusername()"></td> 
+      <td><input id="bank-username" readonly value="<?=$memberBank["username"]?>" /><input style="cursor:pointer;margin-left:5px;" class='clipboard' type=button value="复制" data-clipboard-action="copy"    data-clipboard-target="#bank-username"></td> 
     </tr>
     <tr>
       <td align="right">收款账号：</td>
-      <td><input id="bank-account"   readonly value="<?=$memberBank["account"]?>" /><input type=button value="复制" onclick="jsCopy()"></td> 
+      <td><input id="bank-account"   readonly value="<?=$memberBank["account"]?>" /><input style="cursor:pointer;margin-left:5px;" class='clipboard' type=button value="复制" data-clipboard-action="copy"    data-clipboard-target="#bank-account"></td> 
     </tr>
      <tr>
       <td align="right">充值金额：</td>
@@ -381,4 +382,14 @@ height:15px; width:15px
 </div>
 </tr>
 </table> 
+<script>
+	var clipboard = new Clipboard('.clipboard');
+	clipboard.on('success', function(e) {
+		alert("复制成功");
+	});
+
+	clipboard.on('error', function(e) {
+		alert("请手动复制");
+	});
+</script>
 <?php }?>
