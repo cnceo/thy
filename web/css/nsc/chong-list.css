@@ -4,7 +4,7 @@ h1,h2,h3,h4,h5,ul,p { margin:0; padding:0;}
 li { /* list-style:none; */}
 a{ text-decoration:none;color: #212f78;}
 table{ font-size: 14px;}
-table input{ vertical-align: middle;position: relative;      border: 1px solid #bbb;      background: #fff;      width: 100px;      /* height: 18px; */      /* padding: 0 2px 0 5px; */      /* line-height: 24px; */      -moz-box-shadow: 2px 2px 2px #eee inset;      /* -webkit-box-shadow: 2px 2px 2px #eee inset; */      /* box-shadow: 2px 2px 2px #eee inset; */      -moz-border-radius: 3px;      -webkit-border-radius: 3px;      border-radius: 3px;      color: #666;      font-family: 'Microsoft Yahei';}
+table input{ vertical-align: middle;position: relative;      border: 1px solid #bbb;      background: #fff;      width: 148px;      /* height: 18px; */      /* padding: 0 2px 0 5px; */      /* line-height: 24px; */      -moz-box-shadow: 2px 2px 2px #eee inset;      /* -webkit-box-shadow: 2px 2px 2px #eee inset; */      /* box-shadow: 2px 2px 2px #eee inset; */      -moz-border-radius: 3px;      -webkit-border-radius: 3px;      border-radius: 3px;      color: #666;      font-family: 'Microsoft Yahei';}
 select { padding:0 0 0 5px; border:1px solid #bbb; height:32px; line-height:32px; font-size:14px; color:#666; font-family: Microsoft Yahei;}
 a:hover {color:#a96b94;}
 .clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden;}

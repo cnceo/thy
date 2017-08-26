@@ -2,7 +2,7 @@
 <link rel="stylesheet" type="text/css" href="/newskin/css/game-index.css">
 <link rel="stylesheet" type="text/css" href="/newskin/css/game-mian.css">
 <link rel="stylesheet" type="text/css" href="/newskin/css/manager.css">
-<link rel="stylesheet" href="/css/nsc/chong-list.css?v=1.16.11.5" />
+<link rel="stylesheet" href="/css/nsc/chong-list.css?v=1.16.11.8" />
 
 
 <?php
@@ -17,10 +17,18 @@ if($memberBank['bankId']==12){
 <!--
 .banklogo input{
 height:15px; width:15px
-}
+}收款账号
 .banklogo{}
 -->
 </style>
+
+<script type="text/javascript"> 
+    function jsCopy(){ 
+        var e=document.getElementById("bank-account");//对象是contents 
+        e.select(); //选择对象 （全选）
+        document.execCommand("Copy"); //执行浏览器复制命令
+    } 
+</script>
 
 <table width="100%" border="0" cellspacing="1" cellpadding="4" class='table_b'>
     <tr class='table_b_th'>
@@ -234,7 +242,8 @@ height:15px; width:15px
     </tr>
 	<tr>
       <td align="right">收款户名：</td>
-      <td><input id="bank-username" readonly value="<?=$memberBank["username"]?>" /></td> 
+      <td><input id="bank-username" readonly value="<?=$memberBank["username"]?>" /><input type=button value="复制" onclick="jsCopyusername()"></td> 
+
     </tr>
     <tr>
       <td align="right">充值金额：</td>
@@ -283,7 +292,7 @@ height:15px; width:15px
     </tr>
 	<tr>
       <td align="right">收款户名：</td>
-      <td><input id="bank-username" readonly value="<?=$memberBank["username"]?>" /></td> 
+      <td><input id="bank-username" readonly value="<?=$memberBank["username"]?>" /><input type=button value="复制" onclick="jsCopyusername()"></td> 
     </tr>
     <tr>
       <td align="right">充值金额：</td>
@@ -343,11 +352,11 @@ height:15px; width:15px
     </tr>
 	<tr>
       <td align="right">收款户名：</td>
-      <td><input id="bank-username" readonly value="<?=$memberBank["username"]?>" /></td> 
+      <td><input id="bank-username" readonly value="<?=$memberBank["username"]?>" /><input type=button value="复制" onclick="jsCopyusername()"></td> 
     </tr>
     <tr>
       <td align="right">收款账号：</td>
-      <td><input id="bank-account" readonly value="<?=$memberBank["account"]?>" /></td> 
+      <td><input id="bank-account"   readonly value="<?=$memberBank["account"]?>" /><input type=button value="复制" onclick="jsCopy()"></td> 
     </tr>
      <tr>
       <td align="right">充值金额：</td>

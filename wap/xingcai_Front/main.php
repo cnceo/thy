@@ -69,6 +69,7 @@ if ($kjHao)
     $kjHao = explode(',', $kjHao);
 
 $actionNo   = $this->getGameNo($this->type);
+
 $types      = $this->getTypes();
 //print_r($types);
 $kjdTime    = $types[$this->type]['data_ftime'];
@@ -147,10 +148,10 @@ $kjDiffTime = strtotime($lastNo['actionTime']) - $this->time;
 							<dt>11选5</dt>
 								<dd>
 									<ul class="lot_list">
-										<li><a href="/index.php/index/game/6">广东11选5<i>H</i></a></li>
+										<!--<li><a href="/index.php/index/game/6">广东11选5<i>H</i></a></li>
 										<li><a href="/index.php/index/game/16">江西11选5</a></li>
 										<li><a href="/index.php/index/game/7">山东11选5</a></li>
-										<li><a href="/index.php/index/game/15">上海11选5</a></li>
+										<li><a href="/index.php/index/game/15">上海11选5</a></li>-->
 										<li><a href="/index.php/index/game/67">澳门11选5<i>H</i></a></li>
 										<li><a href="/index.php/index/game/68">台湾11选5</a></li>
 									</ul>
@@ -160,7 +161,7 @@ $kjDiffTime = strtotime($lastNo['actionTime']) - $this->time;
 							<dt>基诺彩</dt>
 								<dd>
 									<ul class="lot_list">
-										<li><a href="/index.php/index/game/78">北京快乐8<i>H</i></a></li>
+										<!--<li><a href="/index.php/index/game/78">北京快乐8<i>H</i></a></li>-->
 										<li><a href="/index.php/index/game/74">韩国快乐8<i>H</i></a></li>
 										<li><a href="/index.php/index/game/73">澳门快乐8</a></li>
 									</ul>
@@ -255,9 +256,9 @@ $kjDiffTime = strtotime($lastNo['actionTime']) - $this->time;
 								<dl class="lnstruction">
 									<dd>
 										<ul class="lot_list">
-											<li class="tree_list"><a href="/index.php/score/lucky">幸运抽奖</a></li>
+											<!--<li class="tree_list"><a href="/index.php/score/lucky">幸运抽奖</a></li> -->
 											<li class="tree_list"><a href="/index.php/cash/card">卡密充值</a></li>
-											<li class="tree_list"><a href="/index.php/lottery/hemai">合买中心</a></li>
+											<!--<li class="tree_list"><a href="/index.php/lottery/hemai">合买中心</a></li> -->
 											<li class="tree_list"><a class="notice" href="/index.php/notice/info">系统公告</a></li>
 										</ul>
 									</dd>
@@ -270,7 +271,7 @@ $kjDiffTime = strtotime($lastNo['actionTime']) - $this->time;
 		</section>
 		<div class="home_b">
 			<div class="m_nav_line"></div>
-				<a class="one_nav_list conpt_icon" href="/?v=2">电脑版</a>
+				<a class="one_nav_list conpt_icon" href="http://thy08.com">电脑版</a>
 				<a class="one_nav_list retreat_icon" href="javascript:m_loginout()">安全退出</a>
 		</div>
 		<div class="shady"></div>
@@ -418,9 +419,9 @@ if ($this->settings['limosi'] == 1) {
                <input name="zhuiHao" value="1" type="checkbox">
                 </div>
 				
-               	<div class="hemai">
+               	<!-- <div class="hemai">
 				 <input type="checkbox" class="is_combine" value="1" id="cannel_chckbox"/><b class="fq">发起合买</b>
-				 </div>
+				 </div> -->
             </div>
                 <p class="m_total_amout">总金额 <span id="all-amount" class="num orange">0</span> 元</p>
                 <div class="sendChoose"><input type="button" class="addtz" id="btnPostBet"  value="添加投注"></div>

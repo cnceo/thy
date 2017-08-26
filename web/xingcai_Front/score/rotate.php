@@ -11,16 +11,28 @@
 				<h3 class="r_tit">热门活动</h3>
 				</div>
                 <ul>
-			        	<li class="current">
+			        	<li >
 			                <a href="/index.php/score/rotate">幸运大转盘</a>
 			            </li>
 						<li >
 			                <a href="/index.php/score/dodzyh">投资理财</a>
 			            </li>
-						<li >
-			                <a href="/index.php/score/chuangguan">VIP返利活动</a>
-
+						<!--<li >
+			                <a href="/index.php/score/zadan">幸运砸蛋</a>
 			            </li>
+
+						<li >
+			                <a href="/index.php/score/goods/current">积分兑换</a>
+			            </li>
+						<li class="current">
+			                <a href="/index.php/event/index">充值福利</a>
+			            </li>
+						<li>
+			                <a href="/index.php/score/yongjin">新至尊佣金活动</a>
+			            </li>
+			            <li >
+			                <a href="/index.php/score/chuangguan">VIP返利活动</a>
+			            </li>-->
                                    
 			    </ul>
             </div>

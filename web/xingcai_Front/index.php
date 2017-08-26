@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>首页</title>
+<title>首页-添好运娱乐</title>
 <meta name="keywords" content="">
 <meta nam="description" content="">
 <meta name="renderer" content="webkit">
@@ -13,6 +13,26 @@
 <script type="text/javascript" src="/skin/main/onload.js"></script>
 <script type="text/javascript" src="/newskin/js/function.js"></script>
 <script type="text/javascript" src="/skin/layer/layer.js"></script>
+
+<script type="text/javascript"> 
+    function jsCopyusername(){ 
+        var e=document.getElementById("bank-username");//对象是content 
+        e.select(); //选择对象 
+        document.execCommand("Copy"); //执行浏览器复制命令
+       alert("已复制好，可贴粘。"); 
+    } 
+</script> 
+
+<script type="text/javascript"> 
+    function jsCopyaccount(){ 
+        var e=document.getElementById("bank-account");//对象是content 
+        e.select(); //选择对象 
+        document.execCommand("Copy"); //执行浏览器复制命令
+       alert("已复制好，可贴粘。"); 
+    } 
+</script>
+
+
 <script type='text/javascript'>
 function zxkf(){
 	 <?php if($this->settings['kefuStatus']){ ?>
@@ -122,33 +142,15 @@ function qqkf(){
                                 <dd><a data="L-19" href="/index.php/index/game/5/59/193/河内1分彩">河内1分彩</a></dd>
 								<dd><a data="L-19" href="/index.php/index/game/75/59/193">巴西快乐彩</a></dd>
                                 <dd><a data="L-25" href="/index.php/index/game/76/59/193">巴西1.5分彩<span style="margin-left: 10px;" class="new"></span></a></dd>
-								<dd><a data="L-19" href="/index.php/index/game/69">澳门3D</a></dd>
-								<dd><a data="L-19" href="/index.php/index/game/70">台湾3D</a></dd>
-								<dd><a data="L-13" href="/index.php/index/game/77">高速六合彩<span class="hot"></span></a></dd>
                             </dl>
 							<dl>
                                 <dt >快乐八&PK拾</dt>
-                                <dd><a data="L-9" href="/index.php/index/game/78">北京快乐8</a></dd>
+                               <!-- <dd><a data="L-9" href="/index.php/index/game/78">北京快乐8</a></dd> -->
 								<dd><a data="L-9" href="/index.php/index/game/73">澳门快乐8</a></dd>
 								<dd><a data="L-9" href="/index.php/index/game/74">韩国快乐8</a></dd>
 								<dd><a data="L-24" href="/index.php/index/game/20/27">北京PK拾<span class="new"></span></a></dd>
 								<dd><a data="L-23" href="/index.php/index/game/66/27">台湾PK拾<span class="new"></span></a></dd>
 								<dd><a data="L-23" href="/index.php/index/game/65/27">澳门PK拾<span class="new"></span></a></dd>
-                            </dl>
-							<dl>
-                                <dt>乐透彩</dt>
-                                <dd><a data="L-8" href="/index.php/index/game/15">上海11选5</a></dd>
-                                <dd><a data="L-8" href="/index.php/index/game/6">广东11选5</a></dd>
-                                <dd><a data="L-7" href="/index.php/index/game/16">江西11选5</a></dd>
-                                <dd><a data="L-5" href="/index.php/index/game/7">山东11选5</a></dd>
-								<dd><a data="L-5" href="/index.php/index/game/67">澳门11选5</a></dd>
-								<dd><a data="L-5" href="/index.php/index/game/68">台湾11选5</a></dd>
-                            </dl>
-							<dl>
-                                <dt>低频彩</dt>
-                                <dd><a data="L-11" href="/index.php/index/game/9">3D福彩</a></dd>
-                                <dd><a data="L-12" href="/index.php/index/game/10">排列3</a></dd>
-								<dd><a data="L-20" href="/index.php/index/game/34">香港六合彩</a></dd>
                             </dl>
                             <dl>
                                 <dt>快三&幸运农场</dt>
@@ -158,7 +160,24 @@ function qqkf(){
 								<dd><a data="L-12" href="/index.php/index/game/71">澳门幸运农场</a></dd>
 								<dd><a data="L-12" href="/index.php/index/game/72">台湾幸运农场</a></dd>
                             </dl>
-                            
+							<dl>
+                                <dt>低频彩</dt>
+                                <dd><a data="L-11" href="/index.php/index/game/9">3D福彩</a></dd>
+                                <dd><a data="L-12" href="/index.php/index/game/10">排列3</a></dd>
+								<dd><a data="L-19" href="/index.php/index/game/69">澳门3D</a></dd>
+								<dd><a data="L-19" href="/index.php/index/game/70">台湾3D</a></dd>
+								<!--<dd><a data="L-20" href="/index.php/index/game/34">香港六合彩</a></dd> -->
+                            </dl>
+
+                            							<dl>
+                                <dt>乐透彩</dt>
+                                <!--<dd><a data="L-8" href="/index.php/index/game/15">上海11选5</a></dd>
+                                <dd><a data="L-8" href="/index.php/index/game/6">广东11选5</a></dd>
+                                <dd><a data="L-7" href="/index.php/index/game/16">江西11选5</a></dd>
+                                <dd><a data="L-5" href="/index.php/index/game/7">山东11选5</a></dd> -->
+								<dd><a data="L-5" href="/index.php/index/game/67">澳门11选5</a></dd>
+								<dd><a data="L-5" href="/index.php/index/game/68">台湾11选5</a></dd>
+                            </dl>
                            
                         </div>
                     </li>
@@ -166,9 +185,9 @@ function qqkf(){
                     <li>
                         
                     </li>
-                    <li>
+                   <!-- <li>
                         <a href="/index.php/lottery/hemai"><i class="i_icon-tyjj"></i><em class="i_icon-new"></em><b>合买中心</b><sup>Sports</sup></a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="javascript:void(0);"><i class="i_icon-account"></i><b>账户管理</b><sup>Account</sup></a>
                         <div class="nav_child nav_child2">
@@ -209,7 +228,7 @@ function qqkf(){
         <div class="banner">
             <ul class="rslides f980x240 rslides1" style="max-width: 980px;">
                         <li id="rslides1_s0" class="" style="display: none; float: none; position: absolute;">
-                            <a href="/?nav=jssm&amp;flaglot=jssm#">
+                            <a href="http://wpa.qq.com/msgrd?v=3&uin=3360146563&site=qq&menu=yes&from=message&isappinstalled=0">
                                 <img src="/images/uploads/1/1.jpg">
                             </a>
                         </li>
@@ -224,12 +243,12 @@ function qqkf(){
                             </a>
                         </li>
                         <li id="rslides1_s3" class="" style="display: none; float: none; position: absolute;">
-                            <a href=" /?nav=pk10&amp;flaglot=pk10#">
+                            <a href=" /index.php/score/dodzyh">
                                 <img src="/images/uploads/1/4.jpg">
                             </a>
                         </li>
                                             <li id="rslides1_s4" style="display: none; float: none; position: absolute;">
-                            <a href="/?nav=activity&amp;tag=viewactivity&amp;template=4#">
+                            <a href="/index.php/index/game/20/27">
                                 <img src="/images/uploads/1/5.jpg">
                             </a>
                         </li>

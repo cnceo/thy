@@ -198,9 +198,9 @@
 								<dl class="lnstruction">
 									<dd>
 										<ul class="lot_list">
-											<li class="tree_list"><a href="/index.php/score/lucky">幸运抽奖</a></li>
+											<!--<li class="tree_list"><a href="/index.php/score/lucky">幸运抽奖</a></li> -->
 											<li class="tree_list"><a href="/index.php/cash/card">卡密充值</a></li>
-											<li class="tree_list"><a href="/index.php/lottery/hemai">合买中心</a></li>
+											<!--<li class="tree_list"><a href="/index.php/lottery/hemai">合买中心</a></li> -->
 											<li class="tree_list"><a class="notice" href="/index.php/notice/info">系统公告</a></li>
 										</ul>
 									</dd>

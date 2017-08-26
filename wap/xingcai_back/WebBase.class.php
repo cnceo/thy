@@ -126,7 +126,6 @@ class WebBase extends Object{
 		if(($fun=$types[$type]['onGetNoed']) && method_exists($this, $fun)){
 			$this->$fun($return['actionNo'], $return['actionTime'], $time);
 		}
-		
 		return $return;
 	}
 	
@@ -298,7 +297,7 @@ class WebBase extends Object{
 	//北京PK10
 	public function BJpk10(&$actionNo, &$actionTime, $time=null){
 		$this->setTimeNo($actionTime, $time);
-		$actionNo = 179*(strtotime(date('Y-m-d', $time))-strtotime('2007-11-11'))/3600/24+$actionNo-3773;
+		$actionNo = 179*(strtotime(date('Y-m-d', $time))-strtotime('2007-11-11'))/3600/24+$actionNo-3793;
 	}
 	//北京快乐8
 	public function bjkl8(&$actionNo, &$actionTime, $time=null){

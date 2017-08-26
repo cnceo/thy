@@ -1,6 +1,6 @@
 <div class="m_footer_annotation">
                         未满18周岁禁止购买<br>
-                Copyright © SinCai  柒彩娱乐 版权所有
+                Copyright © SinCai  添好运娱乐 版权所有
                 <!-- <a href="#" class="m_f_top"></a> -->
 </div>
 <div class="padding_fot_b20 "></div>

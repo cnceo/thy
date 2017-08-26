@@ -45,7 +45,7 @@ $fromTime=$_GET['fromTime'];
 $toTime=$_GET['toTime'];
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:esun="" style="font-size: 15.525px;"><head>
-<title>柒彩娱乐-官方网站</title>
+<title>添好运娱乐-官方网站</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,user-scalable=no,maximum-scale=1.0">
 <meta http-equiv="Pragma" content="no-cache">
@@ -232,9 +232,9 @@ html {overflow:-moz-scrollbars-vertical; overflow-y:scroll;}
 								<dl class="lnstruction">
 									<dd>
 										<ul class="lot_list">
-											<li class="tree_list"><a href="/index.php/score/lucky">幸运抽奖</a></li>
+											<!--<li class="tree_list"><a href="/index.php/score/lucky">幸运抽奖</a></li> -->
 											<li class="tree_list"><a href="/index.php/cash/card">卡密充值</a></li>
-											<li class="tree_list"><a href="/index.php/lottery/hemai">合买中心</a></li>
+											<!--<li class="tree_list"><a href="/index.php/lottery/hemai">合买中心</a></li> -->
 											<li class="tree_list"><a class="notice" href="/index.php/notice/info">系统公告</a></li>
 										</ul>
 									</dd>
@@ -247,7 +247,7 @@ html {overflow:-moz-scrollbars-vertical; overflow-y:scroll;}
 		</section>
     <div class="home_b">
       <div class="m_nav_line"></div>
-        <a class="one_nav_list conpt_icon" href="/?v=2">电脑版</a>
+        <a class="one_nav_list conpt_icon" href="http://thy08.com">电脑版</a>
         <a class="one_nav_list retreat_icon" href="javascript:m_loginout()">安全退出</a>
     </div>
     <div class="shady"></div>
@@ -454,7 +454,7 @@ function toggleMiss(){
 
 <div class="m_footer_annotation">
                         未满18周岁禁止购买<br>
-                Copyright © SinCai  柒彩娱乐 版权所有
+                Copyright © SinCai  添好运娱乐 版权所有
                 <!-- <a href="#" class="m_f_top"></a> -->
 </div>
 

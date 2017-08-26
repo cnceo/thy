@@ -129,7 +129,7 @@
 </div>
 <div class="m_footer_annotation">
                         未满18周岁禁止购买<br>
-                Copyright © SinCai  柒彩娱乐 版权所有
+                Copyright © SinCai  添好运娱乐 版权所有
                 <!-- <a href="#" class="m_f_top"></a> -->
 </div>
 <script type="text/javascript" src="/js/nsc_m/res.js?v=1.17.1.23"></script>

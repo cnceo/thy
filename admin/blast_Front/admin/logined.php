@@ -6,7 +6,7 @@
 <meta name="renderer" content="ie-comp" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
 <meta charset="utf-8"/>
-<title>后台管理员登陆</title>
+<title>后台管理员登陆-添好运娱乐</title>
 <link rel="stylesheet" href="/skin/admin/layout.css" type="text/css" />
 <!--[if IE]>
 	<link rel="stylesheet" href="/skin/admin/ie.css" type="text/css" />
@@ -67,7 +67,7 @@ body {
                   <td height="149">&nbsp;</td>
                 </tr>
                 <tr>
-                  <td height="80" valign="top"><img src="/skin/admin/images/logo.png" width="279" height="68" style="float:right; margin-right:30px;"></td>
+                  <td height="80" valign="top"><img src="/skin/admin/images/logo.png?v=100" width="279" height="68" style="float:right; margin-right:30px;"></td>
                 </tr>
                 <tr>
                   <td height="198" align="right" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -143,7 +143,7 @@ body {
   <tr>
     <td height="20"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="login-buttom-bg">
       <tr>
-        <td align="center"><span class="login-buttom-txt">Copyright &copy; 中彩在线管理系统</span></td>
+        <td align="center"><span class="login-buttom-txt">Copyright &copy; 添好运管理系统</span></td>
       </tr>
     </table></td>
   </tr>

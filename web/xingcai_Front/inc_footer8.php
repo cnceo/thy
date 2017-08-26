@@ -37,16 +37,16 @@
 			</dl>
 			<dl class="lt">
 				<dt>乐透彩</dt>
-				<dd><a data="L-10" href="/index.php/index/game/15/">上海11选5</a></dd> 
+				<!--<dd><a data="L-10" href="/index.php/index/game/15/">上海11选5</a></dd> 
 				<dd><a data="L-8"  href="/index.php/index/game/6/">广东11选5</a></dd>
 				<dd><a data="L-7"  href="/index.php/index/game/16/10/">江西11选5</a></dd>
-				<dd><a data="L-5"  href="/index.php/index/game/7/10/">山东11选5</a></dd>
+				<dd><a data="L-5"  href="/index.php/index/game/7/10/">山东11选5</a></dd>-->
 				<dd><a data="L-5"  href="/index.php/index/game/67/">澳门11选5</a></dd>
 				<dd><a data="L-5"  href="/index.php/index/game/68/">台湾11选5</a></dd>
 			</dl>
 			<dl class="dp">
 				<dt>PK拾&快乐8</dt>
-				<dd><a href="/index.php/index/game/78/">北京快乐8</a></dd>
+				 <!--<dd><a href="/index.php/index/game/78/">北京快乐8</a></dd>-->
 				<dd><a href="/index.php/index/game/20/27/">北京PK拾</a></dd>
 				<dd><a href="/index.php/index/game/73/">澳门快乐8</a></dd>
 				<dd><a href="/index.php/index/game/65/27/">澳门PK拾</a></dd>
@@ -226,7 +226,7 @@ $(document).ready(function(){
 			</p>
 			<p class="t-right">
 				未满18周岁禁止购买<br />
-				Copyright © SinCai 2010-2017  中彩在线 版权所有
+				Copyright © SinCai 2010-2017  添好运娱乐 版权所有
 			</p>
 		</div>
 	</div>

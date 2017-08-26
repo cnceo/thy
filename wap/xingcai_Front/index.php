@@ -65,7 +65,7 @@
 										<li><a href="/index.php/index/game/5/59/193">河内1分彩<i>H</i></a> </li>
 										<li><a href="/index.php/index/game/26/59/193">河内2分彩<i>H</i></a> </li>
 										<li><a href="/index.php/index/game/14/59/193">河内5分彩<i>H</i></a></li>
-										<li><a href="/index.php/index/game/76/59/193">腾讯分分彩<i>H</i></a></li>
+										<!--<li><a href="/index.php/index/game/76/59/193">巴西分分彩<i>H</i></a></li>--> 
 										<li><a href="/index.php/index/game/75/59/193">巴西快乐彩<i>H</i></a></li>
 										
 										<!-- comingsoon();  如果需要禁用用这个函数即可--> 
@@ -96,10 +96,10 @@
 							<dt>11选5</dt>
 								<dd>
 									<ul class="lot_list">
-										<li><a href="/index.php/index/game/6">广东11选5<i>H</i></a></li>
+										<!--<li><a href="/index.php/index/game/6">广东11选5<i>H</i></a></li>
 										<li><a href="/index.php/index/game/16">江西11选5</a></li>
 										<li><a href="/index.php/index/game/7">山东11选5</a></li>
-										<li><a href="/index.php/index/game/15">上海11选5</a></li>
+										<li><a href="/index.php/index/game/15">上海11选5</a></li>--> 
 										<li><a href="/index.php/index/game/67">澳门11选5<i>H</i></a></li>
 										<li><a href="/index.php/index/game/68">台湾11选5</a></li>
 									</ul>
@@ -109,7 +109,7 @@
 							<dt>快乐8</dt>
 								<dd>
 									<ul class="lot_list">
-										<li><a href="/index.php/index/game/78">北京快乐8<i>H</i></a></li>
+										<!--<li><a href="/index.php/index/game/78">北京快乐8<i>H</i></a></li> -->
 										<li><a href="/index.php/index/game/74">韩国快乐8<i>H</i></a></li>
 										<li><a href="/index.php/index/game/73">澳门快乐8</a></li>
 									</ul>
@@ -204,9 +204,9 @@
 								<dl class="lnstruction">
 									<dd>
 										<ul class="lot_list">
-											<li class="tree_list"><a href="/index.php/score/lucky">幸运抽奖</a></li>
+											<!--<li class="tree_list"><a href="/index.php/score/lucky">幸运抽奖</a></li> -->
 											<li class="tree_list"><a href="/index.php/cash/card">卡密充值</a></li>
-											<li class="tree_list"><a href="/index.php/lottery/hemai">合买中心</a></li>
+											<!--<li class="tree_list"><a href="/index.php/lottery/hemai">合买中心</a></li> -->
 											<li class="tree_list"><a class="notice" href="/index.php/notice/info">系统公告</a></li>
 										</ul>
 									</dd>
@@ -220,7 +220,7 @@
 		<div class="home_b" style="display: none;">
 			<div class="m_nav_line"></div>
 				<!-- <a href="">首页</a> -->
-				<a class="one_nav_list conpt_icon" href="/?v=2">电脑版</a>
+				<a class="one_nav_list conpt_icon" href="http://thy08.com">电脑版</a>
 				<a class="one_nav_list retreat_icon" href="javascript:m_loginout()">安全退出</a>
 		</div>
 		<div class="shady" style="display: none;"></div>		<div class="m-prompt" style="overflow: hidden; display: none;">
@@ -416,14 +416,14 @@
 						</div>
 				</li-->
 				
-				<li>
+				<!--<li>
 					<div class="lotteryBox">
 							<a class="bj_k" href="/index.php/index/game/78">
 								
 							</a>
 							<p class="lottName">北京快乐8</p>
 						</div>
-				</li>
+				</li> -->
 				<li>
 					<div class="lotteryBox">
 							<a class="hg_k8" href="/index.php/index/game/74">

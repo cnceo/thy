@@ -51,7 +51,7 @@ function registerSubmit(err,data){
 
 <div class="zc_cont">
 	<div class="zc_content">
-		<div class="zc_title">欢迎您注册网站会员，如果您已拥有账户，则可在此<a href="/index.php">登录</a><span class="text_tit1"></span></div>
+		<div class="zc_title">欢迎您注册网站会员，如果您已拥有账户，则可在此<a href="/index.php">登录</a><span> </span></div>
 		<div class="zc_list" id="apDiv4">
 			<ul id="reg_con">
            <?php if($args[0]){ ?>

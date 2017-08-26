@@ -5,7 +5,8 @@
  */
 class Data extends AdminBase{
 	public $pageSize=15;
-	private $encrypt_key='QQ:123-CMK;pt`4Wg;*$+G<EWhZ~I+@l,k$y5r75Q/)GL;pt`4Wg;*$+G<EWhZ~I+@l,k$y5r75Q/)t#20BO(,u=PHsGr@NI*N/On?u8v(^Pa~Gl;pt`4Wg;*$+G<EWhZ~I+@l,k$y5r75Q/)#n=0w:%o5G$8QCOsdFf2(yz1Fz:ZB#uAR';	// 256位随便密码
+	//private $encrypt_key='QQ:123-CMK;pt`4Wg;*$+G<EWhZ~I+@l,k$y5r75Q/)GL;pt`4Wg;*$+G<EWhZ~I+@l,k$y5r75Q/)t#20BO(,u=PHsGr@NI*N/On?u8v(^Pa~Gl;pt`4Wg;*$+G<EWhZ~I+@l,k$y5r75Q/)#n=0w:%o5G$8QCOsdFf2(yz1Fz:ZB#uAR';	// 256位随便密码
+	private $encrypt_key='123456';
 	private $dataPort=8800;
 	
 	public final function index($type){

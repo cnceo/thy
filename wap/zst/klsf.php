@@ -46,7 +46,7 @@ $toTime=$_GET['toTime'];
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <HTML xmlns="http://www.w3.org/1999/xhtml" xmlns:esun>
-<HEAD><TITLE>柒彩娱乐 - 号码走势</TITLE>
+<HEAD><TITLE>添好运娱乐 - 号码走势</TITLE>
 <META http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <META http-equiv="Pragma" content="no-cache" />
 <style>

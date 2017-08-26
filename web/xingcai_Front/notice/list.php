@@ -1,7 +1,7 @@
 ﻿<html xmlns="http://www.w3.org/1999/xhtml"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=9">
-<title>中彩游戏平台  - 公告列表 </title>
+<title>添好运游戏平台  - 公告列表 </title>
 <link href='/skin/main/bl_gg.css' rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="/css/nsc/reset.css?v=1.16.11.8">
 <link rel="stylesheet" href="/css/nsc/list.css?v=1.16.11.8">

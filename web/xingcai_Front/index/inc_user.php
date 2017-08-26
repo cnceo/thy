@@ -29,7 +29,7 @@
 	</div>-->
     </div>
 
-	<div class="logo left"><a href="">中彩在线</a></div>
+	<div class="logo left"><a href="">添好运娱乐</a></div>
 
 	<div class="left nav navList">
 		<ul>
@@ -44,35 +44,23 @@
 								<dd><a data="L-13" href="/index.php/index/game/61/59/193">澳门时时彩<i class="hot"></i></a></dd>
 								<dd><a data="L-13" href="/index.php/index/game/62/59/193">台湾时时彩<i class="hot"></i></a></dd>
 								<dd><a data="L-14" href="/index.php/index/game/14/59/193">河内5分彩</span></a></dd>
-								<dd><a data="L-19" href="/index.php/index/game/69">澳门3D</a></dd>
-								<dd><a data="L-19" href="/index.php/index/game/70">台湾3D</a></dd>
+								<dd><a data="L-19" href="/index.php/index/game/26/59/193">河内2分彩</a></dd>
+                                <dd><a data="L-19" href="/index.php/index/game/5/59/193/河内1分彩">河内1分彩</a></dd>
+								<dd><a data="L-19" href="/index.php/index/game/75/59/193">巴西快乐彩</a></dd>
+                                <dd><a data="L-25" href="/index.php/index/game/76/59/193">巴西1.5分彩<span style="margin-left: 10px;" class="new"></span></a></dd>
 						
 								
                             </dl>
                             <dl>
                                <dt >快乐八&PK拾</dt>
-                                <dd><a data="L-9" href="/index.php/index/game/78">北京快乐8<i class="new"></i></a></dd>
+                                <!--<dd><a data="L-9" href="/index.php/index/game/78">北京快乐8<i class="new"></i></a></dd>-->
 								<dd><a data="L-9" href="/index.php/index/game/73">澳门快乐8</a></dd>
 								<dd><a data="L-9" href="/index.php/index/game/74">韩国快乐8</a></dd>
 								<dd><a data="L-24" href="/index.php/index/game/20/27">北京PK拾<i class="new"></i></a></dd>
 								<dd><a data="L-23" href="/index.php/index/game/66/27">台湾PK拾<i class="new"></i></a></dd>
 								<dd><a data="L-23" href="/index.php/index/game/65/27">澳门PK拾<i class="new"></i></a></dd>
                             </dl>
-                            <dl>
-							
-                                <dt>乐透彩</dt>
-                                <dd><a data="L-8" href="/index.php/index/game/15">上海11选5</a></dd>
-                                <dd><a data="L-8" href="/index.php/index/game/6">广东11选5<i class="hot"></i></a></dd>
-                                <dd><a data="L-7" href="/index.php/index/game/165">江西11选5</a></dd>
-                                <dd><a data="L-5" href="/index.php/index/game/7">山东11选5</a></dd>
-								<dd><a data="L-5" href="/index.php/index/game/67">澳门11选5<i class="hot"></i></a></dd>
-								<dd><a data="L-5" href="/index.php/index/game/68">台湾11选5<i class="new"></i></a></dd>
-                            </dl>
-                            <dl >
-                                <dt>低频彩</dt>
-                                <dd><a data="L-11" href="/index.php/index/game/9">3D福彩<i class="hot"></i></a></dd>
-                                <dd><a data="L-12" href="/index.php/index/game/10">排列3</a></dd>
-							</dl>
+                            
 							<dl>
                                 <dt>快三&幸运农场</dt>
                                 <dd><a data="L-15" href="/index.php/index/game/79">江苏快三<i class="new"></i></a></dd>
@@ -80,6 +68,23 @@
 								<dd><a data="L-12" href="/index.php/index/game/71">澳门幸运农场</a></dd>
 								<dd><a data="L-12" href="/index.php/index/game/64">台湾快三<i class="hot"></i></a></dd>
 								<dd><a data="L-12" href="/index.php/index/game/72">台湾幸运农场<i class="new"></i></a></dd>
+                            </dl>							
+                             
+                            <dl >
+                                <dt>低频彩</dt>
+                                <dd><a data="L-11" href="/index.php/index/game/9">3D福彩<i class="hot"></i></a></dd>
+                                <dd><a data="L-12" href="/index.php/index/game/10">排列3</a></dd>
+								<dd><a data="L-19" href="/index.php/index/game/69">澳门3D</a></dd>
+								<dd><a data="L-19" href="/index.php/index/game/70">台湾3D</a></dd>
+							</dl>
+<dl>
+							   <dt>乐透彩</dt>
+                                <!--<dd><a data="L-8" href="/index.php/index/game/15">上海11选5</a></dd>
+                                <dd><a data="L-8" href="/index.php/index/game/6">广东11选5<i class="hot"></i></a></dd>
+                                <dd><a data="L-7" href="/index.php/index/game/165">江西11选5</a></dd>
+                                <dd><a data="L-5" href="/index.php/index/game/7">山东11选5</a></dd>-->
+								<dd><a data="L-5" href="/index.php/index/game/67">澳门11选5<i class="hot"></i></a></dd>
+								<dd><a data="L-5" href="/index.php/index/game/68">台湾11选5<i class="new"></i></a></dd>
                             </dl>
 				</div>
 			</li>

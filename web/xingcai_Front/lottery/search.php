@@ -6,7 +6,7 @@
 
 <div id="siderbar">
 <ul class="list clearfix">
-<li ><a href="/index.php/lottery/hemai">合买中心</a></li>
+<!--<li ><a href="/index.php/lottery/hemai">合买中心</a></li> -->
 <li class="current"><a href="/index.php/lottery/search">投注记录</a></li>
 </ul>
 </div>

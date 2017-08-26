@@ -286,7 +286,7 @@ $(document).ready(function(){
 			</p>
 			<p class="t-right">
 				未满18周岁禁止购买<br />
-				Copyright © SinCai 2010-2016  柒彩娱乐 版权所有
+				Copyright © SinCai 2010-2016  添好运娱乐 版权所有
 			</p>
 		</div>
 	</div>

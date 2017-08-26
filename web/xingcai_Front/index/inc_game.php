@@ -160,7 +160,7 @@
     float: right;
     display: inline;
 ">
-				 <input type="checkbox" class="is_combine" value="1" id="cannel_chckbox" style="
+<!--				 <input type="checkbox" class="is_combine" value="1" id="cannel_chckbox" style="
     display: inline;
     margin-top: 3px;
     width: 18px;
@@ -172,7 +172,7 @@
     height: 22px;
     color: #ff632c;
     font-size: 13px;
-">发起合买</b>
+">发起合买</b> -->
 				 </div>
 				</div>
 

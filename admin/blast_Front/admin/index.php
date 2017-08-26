@@ -6,7 +6,7 @@
 <meta name="renderer" content="ie-comp" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
 <meta charset="utf-8"/>
-<title>后台管理</title>
+<title>后台管理-添好运娱乐</title>
 <link rel="stylesheet" href="/skin/admin/layout.css" type="text/css" />
 <link type="text/css" rel="stylesheet" href="/skin/js/jqueryui/skin/smoothness/jquery-ui-1.8.23.custom.css" />
 <!--[if IE]>

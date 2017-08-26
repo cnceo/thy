@@ -56,7 +56,7 @@ function registerSubmit(err,data){
 			<?php if($args[0]){ ?>
             <form action="/index.php/user/reg" onkeydown="if(event.keyCode==13){return false;}"  method="post" onajax="registerBeforSubmit" enter="true" call="registerSubmit" target="ajax">
 			<input type="hidden" name="codec" value="<?=$args[0]?>" />
-		<div class="zc_title">欢迎您注册网站会员，如果您已拥有账户，则可在此<a href="/index.php">登录</a><span class="text_tit1"></span></div>
+		<div class="zc_title">欢迎您注册网站会员，如果您已拥有账户，则可在此<a href="/index.php">登录</a><span> </span></div>
 		<div class="zc_list" id="apDiv4">
 			<ul id="reg_con">
             <form method="POST" name="updateform" action="">

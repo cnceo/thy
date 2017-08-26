@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>柒彩娱乐注册官方网站</title>
+<title>添好运娱乐注册官方网站</title>
 <link rel="stylesheet" href="/css/reset.css" />
 <link rel="stylesheet" href="/css/agency_register1.css" />
 <link href="/css/dialogUI.css" media="all" type="text/css" rel="stylesheet">
@@ -99,7 +99,7 @@
 <div class="login_footer"><div class="warp980">
 <div class="img"><img src="/img/nsc_login_footer-certificate.png" /></div>
 <div class="clearfix"><p class="t-left">浏览器建议：首选为Google浏览器，其次为火狐和IE9或IE10浏览器<br />分辨率建议：使用1024&times;768以上的分辨率</p>
-<p class="t-right">郑重提示：彩票有风险，投注需谨慎，未满18周岁禁止购买<br />Copyright &copy; SinCai 2010-2017  柒彩娱乐 版权所有</p></div>
+<p class="t-right">郑重提示：彩票有风险，投注需谨慎，未满18周岁禁止购买<br />Copyright &copy; SinCai 2010-2017  添好运娱乐 版权所有</p></div>
 </div></div>
 
 </body>

@@ -3,11 +3,11 @@ require_once('xingcai_sqlin.php');
 $conf['debug']['level']=5;
 
 /*		数据库配置		*/
-$conf['db']['dsn']='mysql:host=localhost;dbname=xc;charset=utf8';
+$conf['db']['dsn']='mysql:host=103.214.170.32;dbname=xc;charset=utf8';
 $dbname='xc';
-$dbhost='localhost';
-$conf['db']['user']='root';
-$conf['db']['password']='5671893';
+$dbhost='103.214.170.32';
+$conf['db']['user']='thy';
+$conf['db']['password']='www.123.com';
 $conf['db']['charset']='utf8';
 $conf['db']['prename']='blast_';
 
@@ -38,7 +38,7 @@ if(strtotime(date('Y-m-d',time()))>strtotime(date('Y-m-d',time()))){
 ?>
 <?php
 error_reporting(0);
-$config = mysql_connect("127.0.0.1","root","5671893")or die("Mysql Connect Error");//设置数据库IP，账号，密码
-mysql_select_db("xc");//数据库库名
+$config = mysql_connect("103.214.170.32","thy","www.123.com")or die("Mysql Connect Error");//设置数据库IP，账号，密码
+mysql_select_db("thy");//数据库库名
 mysql_query("SET NAMES UTF8");
 ?>

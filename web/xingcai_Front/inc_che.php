@@ -34,7 +34,7 @@
 			</p>
 			<p class="t-right">
 				未满18周岁禁止购买<br />
-				Copyright © SinCai 2010-2017  中彩在线 版权所有
+				Copyright © SinCai 2010-2017  添好运娱乐 版权所有
 			</p>
 		</div>
 	</div>

@@ -25,7 +25,7 @@
 				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/5/59/193/河内1分彩">河内1分彩</a></span><i class="icon_new"></i></li>
 				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/26/59/193/河内2分彩">河内2分彩</a></span><i class="icon_new"></i></li>
 				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/14/59/193/河内5分彩">河内5分彩</a></span><i class="icon_new"></i></li>
-				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/76/59/193/腾讯分分彩">腾讯分分彩</a></span><i class="icon_new"></i></li>
+				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/76/59/193/腾讯分分彩">巴西1.5分彩</a></span><i class="icon_new"></i></li>
 			</ul>
 		</div>
 		<!-- <div class="sidebar_lotteries">
@@ -343,7 +343,7 @@ $(document).ready(function(){
 			</p>
 			<p class="t-right">
 				未满18周岁禁止购买<br />
-				                   中彩在线 版权所有
+				                   添好运娱乐 版权所有
 			</p>
 		</div>
 	</div>

@@ -72,20 +72,21 @@
                             <dl>
                                 <dt>高频彩</dt>
                                 
-                                <dd><a data="L-1" href="/index.php/index/game/1/2/12/">重庆时时彩<span class="hot"></span></a></dd>
-                                <dd><a data="L-6" href="/index.php/index/game/12/2/12/">新疆时时彩</a></dd>
-                                <dd><a data="L-13" href="/index.php/index/game/60/2/12/">天津时时彩</a></dd>
-								<dd><a data="L-13" href="/index.php/index/game/61/59/193/">澳门时时彩<span class="hot"></span></a></dd>
-								<dd><a data="L-13" href="/index.php/index/game/62/59/193/">台湾时时彩<span class="hot"></span></a></dd>
-								<dd><a data="L-14" href="/index.php/index/game/14/59/193/">河内5分彩</span></a></dd>
-								<dd><a data="L-19" href="/index.php/index/game/75/59/193/">巴西快乐彩</a></dd>
-                                <dd><a data="L-25" href="/index.php/index/game/76/59/193/">巴西1.5分彩<span style="margin-left: 10px;" class="new"></span></a></dd>
-								<dd><a data="L-19" href="/index.php/index/game/69/">澳门3D</a></dd>
-								<dd><a data="L-19" href="/index.php/index/game/70/">台湾3D</a></dd>
+                                <dd><a data="L-1" href="/index.php/index/game/1/2/12">重庆时时彩<span class="hot"></span></a></dd>
+                                <dd><a data="L-6" href="/index.php/index/game/12/2/12">新疆时时彩</a></dd>
+                                <dd><a data="L-13" href="/index.php/index/game/60/2/12">天津时时彩</a></dd>
+								<dd><a data="L-13" href="/index.php/index/game/61/59/193">澳门时时彩<span class="hot"></span></a></dd>
+								<dd><a data="L-13" href="/index.php/index/game/62/59/193">台湾时时彩<span class="hot"></span></a></dd>
+								<dd><a data="L-14" href="/index.php/index/game/14/59/193">河内5分彩</span></a></dd>
+								<dd><a data="L-19" href="/index.php/index/game/26/59/193">河内2分彩</a></dd>
+                                <dd><a data="L-19" href="/index.php/index/game/5/59/193/河内1分彩">河内1分彩</a></dd>
+								<dd><a data="L-19" href="/index.php/index/game/75/59/193">巴西快乐彩</a></dd>
+                                <dd><a data="L-25" href="/index.php/index/game/76/59/193">巴西1.5分彩<span style="margin-left: 10px;" class="new"></span></a></dd>
+
                             </dl>
 							<dl>
                                 <dt >快乐八&PK拾</dt>
-                                <dd><a data="L-9" href="/index.php/index/game/78/">北京快乐8</a></dd>
+                               <!--  <dd><a data="L-9" href="/index.php/index/game/78/">北京快乐8</a></dd> -->
 								<dd><a data="L-9" href="/index.php/index/game/73/">澳门快乐8</a></dd>
 								<dd><a data="L-9" href="/index.php/index/game/74/">韩国快乐8</a></dd>
 								<dd><a data="L-24" href="/index.php/index/game/20/27/">北京PK拾<span class="new"></span></a></dd>
@@ -93,36 +94,41 @@
 								<dd><a data="L-23" href="/index.php/index/game/65/27/">澳门PK拾<span class="new"></span></a></dd>
                             </dl>
 							<dl>
-                                <dt>乐透彩</dt>
-                                <dd><a data="L-8" href="/index.php/index/game/15/">上海11选5</a></dd>
-                                <dd><a data="L-8" href="/index.php/index/game/6/">广东11选5</a></dd>
-                                <dd><a data="L-7" href="/index.php/index/game/16/">江西11选5</a></dd>
-                                <dd><a data="L-5" href="/index.php/index/game/7/">山东11选5</a></dd>
-								<dd><a data="L-5" href="/index.php/index/game/67/">澳门11选5</a></dd>
-								<dd><a data="L-5" href="/index.php/index/game/68/">台湾11选5</a></dd>
-                            </dl>
-							<dl>
-                                <dt>低频彩</dt>
-                                <dd><a data="L-11" href="/index.php/index/game/9/">3D福彩</a></dd>
-                                <dd><a data="L-12" href="/index.php/index/game/10/">排列3</a></dd>
-                            </dl>
-                            <dl>
-                                <dt>快三&幸运农场</dt>
+							    <dt>快三&幸运农场</dt>
                                 <dd><a data="L-15" href="/index.php/index/game/79/">江苏快三</a></dd>
                                 <dd><a data="L-11" href="/index.php/index/game/63/">澳门快三</a></dd>
                                 <dd><a data="L-12" href="/index.php/index/game/64/">台湾快三</a></dd>
 								<dd><a data="L-12" href="/index.php/index/game/71/">澳门幸运农场</a></dd>
 								<dd><a data="L-12" href="/index.php/index/game/72/">台湾幸运农场</a></dd>
                             </dl>
+
+							<dl>
+                                <dt>低频彩</dt>
+                                <dd><a data="L-11" href="/index.php/index/game/9/">3D福彩</a></dd>
+                                <dd><a data="L-12" href="/index.php/index/game/10/">排列3</a></dd>
+								<dd><a data="L-19" href="/index.php/index/game/69/">澳门3D</a></dd>
+								<dd><a data="L-19" href="/index.php/index/game/70/">台湾3D</a></dd>
+                            </dl>
+                            
+<dl>
+                                <dt>乐透彩</dt>
+                               <!-- <dd><a data="L-8" href="/index.php/index/game/15/">上海11选5</a></dd>
+                                <dd><a data="L-8" href="/index.php/index/game/6/">广东11选5</a></dd>
+                                <dd><a data="L-7" href="/index.php/index/game/16/">江西11选5</a></dd>
+                                <dd><a data="L-5" href="/index.php/index/game/7/">山东11选5</a></dd> -->
+								<dd><a data="L-5" href="/index.php/index/game/67/">澳门11选5</a></dd>
+								<dd><a data="L-5" href="/index.php/index/game/68/">台湾11选5</a></dd>
+                            </dl>
+							<dl>
                         </div>
                     </li>
                   
                    <li>
                         <a href="javascript:;" class="v-NoDagin"><i class="i_icon-dzyx"></i><b>电子游艺</b><sup>Games</sup></a>
                     </li>
-                   <li>
+                  <!-- <li>
                         <a href="/index.php/lottery/hemai"><i class="i_icon-tyjj"></i><em class="i_icon-new"></em><b>合买中心</b><sup>Sports</sup></a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="javascript:void(0);"><i class="i_icon-account"></i><b>账户管理</b><sup>Account</sup></a>
                         <div class="nav_child nav_child2">

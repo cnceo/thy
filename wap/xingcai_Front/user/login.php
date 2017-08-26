@@ -4,7 +4,7 @@
     <meta name="format-detection" content="telephone=no">
 <meta name="screen-orientation" content="portrait">
 <meta name="x5-orientation" content="portrait">
-    <title>中彩在线-官方网站</title>
+    <title>添好运娱乐-官方网站</title>
     <link rel="stylesheet" href="/css/nsc_m/normalize.css?v=1.17.1.12">
 	<script type="text/javascript" src="/skin/js/jquery-1.8.0.min.js"></script>
 	<script type="text/javascript" src="/skin/js/onload.js"></script>
@@ -183,13 +183,13 @@
                 </dl>
                 <button class="btn-submit" type="submit" data-form-sbm="1483930096400.321">登录</button><br>
 
-               
+                <div align="center" style="color: #333"><a href="#" style="color:#7f6173"></a></div>
             </form>
         </section>
         <footer>
             <div class="tip-messages">
                 未满18周岁禁止购买<br>
-                Copyright © SinCai  柒彩娱乐 版权所有
+                Copyright 添好运娱乐 版权所有
             </div>
       
         </footer>

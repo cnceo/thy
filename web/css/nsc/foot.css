@@ -235,7 +235,7 @@ i[class^="icbtn-"], i[class*="icbtn-"] {  background-image: url('/images/nsc/hom
 .clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden;}
 .main-inner { background:url(/images/nsc/login/nsc_login_banner.jpg) no-repeat center top; height:680px; overflow:hidden;}
 .main-inner .box_layer { width:280px;}
-.main-inner .logo { background:url(/images/nsc/login/nsc_login_logo.png) no-repeat; height:95px;}
+.main-inner .logo { background:url(/images/nsc/login/nsc_login_logo.png?v=100) no-repeat; height:95px;}
 .warp980 { width:980px; margin:0 auto;}
 .login_main {padding:20px 0 40px 0;margin-top: 20px;/*background: url("/images/nsc/foot_mainbg.png") repeat;*/clear: both;}
 .air_box { width:318px; float:left;}

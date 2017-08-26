@@ -7,7 +7,7 @@ img { border:0;}
 
 .main-inner { background:url(/images/nsc/login/nsc_login_banner_800.jpg) no-repeat center top; height:1000px; overflow:hidden;}
 .main-inner .box_layer { width:280px; float:right;}
-.main-inner .logo { background:url(/images/nsc/login/nsc_login_logo.png) no-repeat; height:250px;}
+.main-inner .logo { background:url(/images/nsc/login/nsc_login_logo.png?v=100) no-repeat; height:250px;}
 
 .warp980 { width:350px; margin:0 auto;}
 .login_main { padding:20px 0 25px 0;}

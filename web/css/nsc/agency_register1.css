@@ -17,7 +17,7 @@ img { border:0;}
 
 /*注册*/
 .zc_top{ width:100%; height:95px; background:url("/images/nsc/register/agency1/head_top_bg.jpg") center top no-repeat;}
-.zc_top .logo { float: left; display: inline-block; width: 165px; height: 70px; margin: 12px 0 0 0; background:url("/images/nsc/register/agency1/head_top_logo.png") no-repeat;}
+.zc_top .logo { float: left; display: inline-block; width: 245px; height: 70px; margin: 12px 0 0 0; background:url("/images/nsc/register/agency1/head_top_logo.png") no-repeat;}
 .zc_top .zx_service { float: right; display: inline-block; width: 100px; height: 19px; margin: 36px 0 0 0; background:url("/images/nsc/register/agency1/head_top_service.png") no-repeat; text-indent: -9999px;}
 .zc_cont{ width:100%; height:auto; background:#0f0f0f url("/images/nsc/register/agency1/zc_cpyy_bg.jpg") no-repeat center top; background-size:cover; padding:75px 0 40px;}
 .zc_content{width:800px; padding: 25px 0 50px 0; background: url("/images/nsc/register/agency1/main_black-bg.png") repeat; margin:0 auto; position:relative; color: #fff; border-radius:15px;}

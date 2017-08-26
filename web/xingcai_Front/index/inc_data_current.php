@@ -237,7 +237,7 @@
 			</ul>
 			<ul class="twbb">
 				<li><a class="touzhu" href="javascript:void(0);" onclick="kjjl();" >开奖记录</a></li>
-				<li><a class="wanfa" href="/index.php/lottery/hemai" >合买中心</a></li>
+				<!--<li><a class="wanfa" href="/index.php/lottery/hemai" >合买中心</a></li> -->
 			</ul>
 		</div>
 	
@@ -285,7 +285,7 @@
 			</ul>
 			<ul class="twbb">
 				<li><a class="touzhu" href="javascript:void(0);" onclick="kjjl();" >开奖记录</a></li>
-				<li><a class="wanfa" href="/index.php/lottery/hemai" >合买中心</a></li>
+				<!-- <li><a class="wanfa" href="/index.php/lottery/hemai" >合买中心</a></li> -->
 			</ul>
 		</div>
 	
@@ -350,7 +350,7 @@
 			</ul>
 			<ul class="twbb">
 				<li><a class="touzhu" href="javascript:void(0);" onclick="kjjl();" >开奖记录</a></li>
-				<li><a class="wanfa" href="/index.php/lottery/hemai" >合买中心</a></li>
+				<!--<li><a class="wanfa" href="/index.php/lottery/hemai" >合买中心</a></li> -->
 			</ul>
 		</div>
 	
@@ -415,7 +415,7 @@
 			</ul>
 			<ul class="twbb">
 				<li><a class="touzhu" href="javascript:void(0);" onclick="bjkjjl();" >开奖记录</a></li>
-				<li><a class="wanfa" href="/index.php/lottery/hemai" >合买中心</a></li>
+				<!--<li><a class="wanfa" href="/index.php/lottery/hemai" >合买中心</a></li> -->
 			</ul>
 		</div>
 	
@@ -467,7 +467,7 @@
 			</ul>
 			<ul class="twbb">
 				<li><a class="touzhu" href="javascript:void(0);" onclick="kjjl();" >开奖记录</a></li>
-				<li><a class="wanfa" href="/index.php/lottery/hemai" >合买中心</a></li>
+				<!-- <li><a class="wanfa" href="/index.php/lottery/hemai" >合买中心</a></li>-->
 			</ul>
 		</div>
 	
@@ -521,7 +521,7 @@
 			</ul>
 			<ul class="twbb">
 				<li><a class="touzhu" href="javascript:void(0);" onclick="kjjl();" >开奖记录</a></li>
-				<li><a class="wanfa" href="/index.php/lottery/hemai" >合买中心</a></li>
+				<!--<li><a class="wanfa" href="/index.php/lottery/hemai" >合买中心</a></li> -->
 			</ul>
 		</div>
 	
@@ -567,7 +567,7 @@
 			</ul>
 			<ul class="twbb">
 				<li><a class="touzhu" href="javascript:void(0);" onclick="kjjl();" >开奖记录</a></li>
-				<li><a class="wanfa" href="/index.php/lottery/hemai" >合买中心</a></li>
+				<!--<li><a class="wanfa" href="/index.php/lottery/hemai" >合买中心</a></li> -->
 			</ul>
 		</div>
 	
@@ -612,7 +612,7 @@
 			</ul>
 			<ul class="twbb">
 				<li><a class="touzhu" href="javascript:void(0);" onclick="kjjl();" >开奖记录</a></li>
-				<li><a class="wanfa" href="/index.php/lottery/hemai" >合买中心</a></li>
+				<!-- <li><a class="wanfa" href="/index.php/lottery/hemai" >合买中心</a></li> -->
 			</ul>
 		</div>
 	
