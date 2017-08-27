@@ -42,6 +42,7 @@ if(strpos($action,'-')!==false){
 }
 
 $file=$conf['action']['modals'].$control.'.class.php';
+#echo $file;exit(0);
 if(!is_file($file)) notfound('找不到控制器');
 try{
 	require $file;
