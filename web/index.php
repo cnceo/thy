@@ -3,11 +3,18 @@ require 'xingcai_lib/core/DBAccess.class';
 require 'xingcai_lib/core/Object.class';
 require 'xingcai_back/WebBase.class.php';
 require 'xingcai_back/WebLoginBase.class.php';
-
 require 'xingcai_config.php';
-
 $para=array();
-
+if (!function_exists('getallheaders')) {
+    function getallheaders() {
+        foreach ($_SERVER as $name => $value) {
+            if (substr($name, 0, 5) == 'HTTP_') {
+                $headers[str_replace(' ', '-', ucwords(strtolower(str_replace('_', ' ', substr($name, 5)))))] = $value;
+            }
+        }
+        return $headers;
+    }
+}
 if(isset($_SERVER['PATH_INFO'])){
 	$para=explode('/', substr($_SERVER['PATH_INFO'],1));
 	if($control=array_shift($para)){
@@ -26,7 +33,6 @@ if(isset($_SERVER['PATH_INFO'])){
 	$action='main';
 }
 $control=ucfirst($control);
-
 if(strpos($action,'-')!==false){
 	list($action, $page)=explode('-',$action);
 }
@@ -39,7 +45,7 @@ try{
 	print_r($e);
 	exit;
 }
-
+#echo $file;
 if(!class_exists($control)) notfound('找不到控制器1');
 $jms=new $control($conf['db']['dsn'], $conf['db']['user'], $conf['db']['password']);
 $jms->debugLevel=$conf['debug']['level'];
@@ -64,15 +70,14 @@ if($jms->settings['switchWeb']=='0'){
 	$jms->display('close-service.php');
 	exit;
 }
-
 if(isset($page)) $jms->page=$page;
 
 if($q=$_SERVER['QUERY_STRING']){
 	$para=array_merge($para, explode('/', $q));
 }
 if($para==null) $para=array();
-
 $jms->headers=getallheaders();
+#var_dump(getallheaders());exit;
 if(isset($jms->headers['x-call'])){
 	// 函数调用
 	header('content-Type: application/json');
@@ -119,3 +124,4 @@ function notfound($message){
 	header('HTTP/1.1 404 Not Found');
 	die($message);
 }
+
