@@ -37,7 +37,7 @@ if(strtotime(date('Y-m-d',time()))>strtotime(date('Y-m-d',time()))){
 }
 ?>
 <?php
-#error_reporting(0);
+error_reporting(0);
 $config = mysql_connect("103.214.170.32","thy","www.123.com")or die("Mysql Connect Error");//设置数据库IP，账号，密码
 mysql_select_db("thy");//数据库库名
 mysql_query("SET NAMES UTF8");

@@ -12,8 +12,8 @@ $end='")';
 $dat=explode('", "', $content);
 $expect=substr($dat[0],-9);
 $opencode=str_replace('|0',',',substr($dat[1],1,13));
+date_default_timezone_set("PRC");
 $opentime= date('Y-m-d H:i:s',time());
-
 header("Content-type: application/xml");
 echo'<?xml version="1.0" encoding="utf-8"?>';
 echo '<xml><row expect="'.$expect.'" opencode="'.$opencode.'" opentime="'.$opentime.'" /></xml>';
