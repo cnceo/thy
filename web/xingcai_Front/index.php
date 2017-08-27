@@ -14,6 +14,7 @@
 <script type="text/javascript" src="/newskin/js/function.js"></script>
 <script type="text/javascript" src="/skin/layer/layer.js"></script>
 
+
 <script type="text/javascript"> 
     function jsCopyusername(){ 
         var e=document.getElementById("bank-username");//对象是content 

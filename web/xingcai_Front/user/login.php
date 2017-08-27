@@ -4,12 +4,13 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="renderer" content="webkit">
-    <title>登陆</title>
+    <title>登陆-添好运娱乐</title>
 	
     <link rel="stylesheet" href="/css/nsc/reset.css?v=1.16.11.5" />
     <link rel="stylesheet" href="/css/nsc/plugin/dialogUI/dialogUI.css?v=1.16.11.5" media="all" type="text/css" >
     <link rel="stylesheet" type="text/css" media="all" href="/js/keypad/keypad.css?v=1.16.11.5" />
     <link rel="stylesheet" href="/css/nsc/login.css?v=1.16.11.5" />
+
     <script type="text/javascript" src="/js/nsc/jquery-1.7.min.js?v=1.16.11.5"></script>
 	
     <script type="text/javascript" src="/js/common/jquery.md5.js?v=1.16.11.5"></script>
