@@ -291,7 +291,7 @@ function qqkf(){
                         </li>
                         <li class="cp_list_03" id="lottery_L-19">
                             <em class="cp_l_alpha"></em>
-                            <a href="/index.php/index/game/14/72">
+                            <a href="/index.php/index/game/5/59/193/河内1分彩">
                                 <span class="hnquick5_logo"></span>
                                 <p>距<span class="issue">下一期</span>销售截止</p>
                                 <div class="cp_time_01">
@@ -302,7 +302,7 @@ function qqkf(){
                         </li>
                         <li class="cp_list_04" id="lottery_L-23">
                             <em class="cp_l_alpha"></em>
-                            <a href="/index.php/index/game/5/72"><span class="hnffc_logo"></span></a>
+                            <a href="/index.php/index/game/62/59/193"><span class="hnffc_logo"></span></a>
                         </li>
                         <li class="cp_list_05" id="lottery_L-24">
                             <em class="cp_l_alpha"></em>
@@ -318,7 +318,7 @@ function qqkf(){
                         </li>
                         <li class="cp_list_08">
                             <em class="cp_l_alpha"></em>
-                            <a href="/index.php/index/game/6"><span class="gd11x5_logo"></span></a>
+                            <a href="/index.php/index/game/67"><span class="gd11x5_logo"></span></a>
                         </li>
                         <li class="cp_list_09">
                             <em class="cp_l_alpha"></em>
