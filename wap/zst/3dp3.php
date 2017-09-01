@@ -116,7 +116,7 @@ html {overflow:-moz-scrollbars-vertical; overflow-y:scroll;}
 										<li><a href="/index.php/index/game/60/2/12">天津时时彩</a> </li>
 										<li><a href="/index.php/index/game/61/59/193">澳门时时彩<i>H</i></a> </li>
 										<li><a href="/index.php/index/game/62/59/193">台湾时时彩<i>H</i></a> </li>
-										<li><a href="/index.php/index/game/5/59/193">河内1分彩<i>H</i></a> </li>
+										<li><a href="/index.php/index/game/5/59/193">腾讯分分彩<i>H</i></a> </li>
 										<li><a href="/index.php/index/game/26/59/193">河内2分彩<i>H</i></a> </li>
 										<li><a href="/index.php/index/game/14/59/193">河内5分彩<i>H</i></a></li>
 										<li><a href="/index.php/index/game/76/59/193">巴西1.5分彩<i>H</i></a></li>
@@ -409,7 +409,7 @@ function toggleMiss(){
 		<dd><a href="/zst/index.php?typeid=60">天津时时彩</a></dd>
 		<dd><a href="/zst/index.php?typeid=61">澳门时时彩</a></dd>
 		<dd><a href="/zst/index.php?typeid=62">台湾时时彩</a></dd>
-		<dd><a href="/zst/index.php?typeid=5">河内1分彩<i></i></a></dd>
+		<dd><a href="/zst/index.php?typeid=5">腾讯分分彩<i></i></a></dd>
 		<dd><a href="/zst/index.php?typeid=26">河内2分彩<i></i></a></dd>
 		<dd><a href="/zst/index.php?typeid=14">河内5分彩<i></i></a></dd>
 		<dd><a href="/zst/index.php?typeid=76">巴西1.5分彩<i></i></a></dd>

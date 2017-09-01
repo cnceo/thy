@@ -73,7 +73,7 @@ font,div,td{font-size:12px;}
             
             <li id="lottery_div_15"><a href="/zst/index.php?typeid=14">河内5分彩</a></li>
             <li id="lottery_div_14"><a href="/zst/index.php?typeid=26">河内2分彩</a></li>
-            <li id="lottery_div_16"><a href="/zst/index.php?typeid=5">河内1分彩</a></li>
+            <li id="lottery_div_16"><a href="/zst/index.php?typeid=5">腾讯分分彩</a></li>
             
             <li id="lottery_div_5"><a href="/zst/11x5.php?typeid=7">山东11选5</a></li>
             <li id="lottery_div_7"><a href="/zst/11x5.php?typeid=16">江西11选5</a></li>
