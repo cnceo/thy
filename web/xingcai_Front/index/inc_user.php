@@ -39,7 +39,7 @@
 				  	<dl>
 						<dt>高频彩</dt>
 								<dd><a data="L-1" href="/index.php/index/game/1/2/12">重庆时时彩<i class="hot"></i></a></dd>
-                                <dd><a data="L-19" href="/index.php/index/game/5/59/193/河内1分彩">腾讯分分彩<i class="hot"></i></a></dd>
+                                <dd><a data="L-19" href="/index.php/index/game/5/59/193/腾讯分分彩">腾讯分分彩<i class="hot"></i></a></dd>
                                 <dd><a data="L-13" href="/index.php/index/game/60/2/12">天津时时彩</a></dd>
 								<dd><a data="L-13" href="/index.php/index/game/61/59/193">澳门时时彩<i class="hot"></i></a></dd>
 								<dd><a data="L-13" href="/index.php/index/game/62/59/193">台湾时时彩<i class="hot"></i></a></dd>

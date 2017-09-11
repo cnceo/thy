@@ -131,7 +131,7 @@
 			</div>
 			<div class="lottery_timer left">
 				<div class="lottery_issue left">
-					<p>第 <span id="current_issue"><?=$actionNo['actionNo']?></span> 期</p>
+					<p>第<span id="current_issue"><?=$actionNo['actionNo']?></span> 期</p>
 					<p>投注剩余时间</p>
 					<span class="soundBtn soundClickEvent" onclick="voiceKJ();"></span>
 				</div>

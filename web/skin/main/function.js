@@ -242,6 +242,7 @@ function in_array(needle,haystack) {
 }
 var T,S,KT,KS,TIPS;
 function gameKanJiangDataC(diffTime, actionNo){
+	//console.log(diffTime);
 	var thisNo=$('#current_issue').html();
 	TIPS='本期['+thisNo+']已截至投注';
 	if(diffTime<=0){

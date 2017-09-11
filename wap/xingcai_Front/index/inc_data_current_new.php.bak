@@ -134,7 +134,7 @@
 			<div class="lottery_num left">
 				<div class="m-t-lottery_numBox">
 				
-					<p class="lottery_history_issue">腾讯分分彩<span><?=$lastNo['actionNo']?></span> 期</p>
+					<p class="lottery_history_issue"><?= $types[$this->type]['title'] ?>腾讯分分彩<span><?=$lastNo['actionNo']?></span> 期</p>
 										<div class="louhao" id="m_recen_v">
 						<a href="#">近期开奖</a>
 					</div>

@@ -134,7 +134,7 @@ function qqkf(){
                             <dl>
                                 <dt>高频彩</dt>
                                 <dd><a data="L-1" href="/index.php/index/game/1/2/12">重庆时时彩<span class="hot"></span></a></dd>
-                                <dd><a data="L-19" href="/index.php/index/game/5/59/193/河内1分彩">腾讯分分彩<span class="hot"></span></a></dd>
+                                <dd><a data="L-19" href="/index.php/index/game/5/59/193/腾讯分分彩">腾讯分分彩<span class="hot"></span></a></dd>
                                 <dd><a data="L-13" href="/index.php/index/game/60/2/12">天津时时彩</a></dd>
 								<dd><a data="L-13" href="/index.php/index/game/61/59/193">澳门时时彩<span class="hot"></span></a></dd>
 								<dd><a data="L-13" href="/index.php/index/game/62/59/193">台湾时时彩<span class="hot"></span></a></dd>
@@ -291,7 +291,7 @@ function qqkf(){
                         </li>
                         <li class="cp_list_03" id="lottery_L-19">
                             <em class="cp_l_alpha"></em>
-                            <a href="/index.php/index/game/5/59/193/河内1分彩">
+                            <a href="/index.php/index/game/5/59/193/腾讯分分彩">
                                 <span class="hnquick5_logo"></span>
                                 <p>距<span class="issue">下一期</span>销售截止</p>
                                 <div class="cp_time_01">

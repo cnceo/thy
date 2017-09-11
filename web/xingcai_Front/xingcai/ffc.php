@@ -24,7 +24,7 @@
 // <row expect="'.$actionNo.'" opencode="'.$realCode.'" opentime="'.$lastNo['actionTime'].'"/>
 // </xml>';
 ob_start();
-$lastNo=$this->getGameLastNo(5);
+#$lastNo=$this->getGameLastNo(5);
 $api = 'http://www.77tj.org/api/tencent/onlineim';
 $resultJson = file_get_contents( $api ); 
 if(!$resultJson)exit;
@@ -43,6 +43,7 @@ for($i = 0; $i < strlen(trim($openCode)); $i++) {
 $realCode = rtrim($realCode, ',');
 $data['opencode'] = $realCode;
 $data['opentime'] = $ffc['onlinetime'];
+$lastNo=$this->getGameLastNo(5, strtotime($ffc['onlinetime']));
 #var_dump($lastNo);exit(0);
 header('Content-type: application/xml');
 echo'<?xml version="1.0" encoding="utf-8"?>';
