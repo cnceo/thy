@@ -24,13 +24,12 @@
                 
                   <div class="recharege-lb">
 				  <?php
-				//$sql="select * from {$this->prename}bank_list b, {$this->prename}sysadmin_bank m where m.admin=1 and m.enable=1 and b.isDelete=0 and b.id=m.bankId and b.id not in(1,3,4,6)";
-				$sql="select * from {$this->prename}bank_list b  where b.isDelete=0 and b.id  in(2, 3, 20) and b.code is not null"; 
+				$sql="select * from {$this->prename}bank_list b, {$this->prename}sysadmin_bank m where m.admin=1 and m.enable=1 and b.isDelete=0 and b.id=m.bankId and b.id not in(1,3,4,6)";
 				$banks=$this->getRows($sql);	
 				if($banks){
 				if($this->user['coinPassword']){
 				?>
-				  <form action="/index.php/cash/inRecharge" method="post" target="ajax,_blank" onajax="checkRecharge" call="toCash" dataType="html">
+				  <form action="/index.php/cash/inRecharge" method="post" target="ajax" onajax="checkRecharge" call="toCash" dataType="html">
 				<div class="item">
                         <div class="item_l">选择充值银行：</div>
                         <div class="item_r">

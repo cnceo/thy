@@ -33,9 +33,9 @@
         	<div id="siderbar">
                 <ul class="list clearfix">
 
-					<li class=""><a href="/index.php/cash/recharge2">网银手动充值</a></li>
-					<li class="current"><a href="/index.php/cash/recharge3">微信手动充值</a></li>
-					<li class=""><a href="/index.php/cash/recharge4">支付宝手动充值</a></li>
+					<li class=""><a href="/index.php/cash/recharge">网银充值</a></li>
+					<li class=""><a href="/index.php/cash/recharge2">微信（QQ）充值</a></li>
+					<li class="current"><a href="/index.php/cash/recharge3">支付宝充值</a></li>
                 </ul>
             </div>
 
@@ -44,8 +44,9 @@
 <div class="recharege-leibie" id="point">
 <?php
 			$set=$this->getSystemSettings();
-				$sql="select * from {$this->prename}bank_list b, {$this->prename}sysadmin_bank m where m.admin=1 and m.enable=1 and b.isDelete=0 and b.id=m.bankId and b.id not in(1,2,4,6,12,20,22)";
-				$banks=$this->getRows($sql);	
+				//$sql="select * from {$this->prename}bank_list b, {$this->prename}sysadmin_bank m where m.admin=1 and m.enable=1 and b.isDelete=0 and b.id=m.bankId and b.id=2";
+        $sql="select * from {$this->prename}bank_list b  where b.isDelete=0 and b.id =2"; 
+        $banks=$this->getRows($sql);	
 				if($banks){
 				if($this->user['coinPassword']){
 				?>

@@ -23,7 +23,10 @@
   <script type="text/javascript" src="/newskin/js/common.js"></script>
   <script type="text/javascript" src="/newskin/js/onload.js"></script>
   <script type="text/javascript" src="/js/nsc/dialogUI/jquery.dialogUI.js?v=1.16.11.5"></script>
+
 <link href="/css/nsc/plugin/dialogUI/dialogUI.css?v=1.16.11.5" media="all" type="text/css" rel="stylesheet" />
+
+
 </head>
 <body>
 
@@ -33,9 +36,9 @@
         	<div id="siderbar">
                 <ul class="list clearfix">
 
-					<li class=""><a href="/index.php/cash/recharge2">网银手动充值</a></li>
-					<li class=""><a href="/index.php/cash/recharge3">微信手动充值</a></li>
-					<li class=""><a href="/index.php/cash/recharge4">支付宝手动充值</a></li>
+					<li class="current"><a href="/index.php/cash/recharge">网银充值</a></li>
+					<li class=""><a href="/index.php/cash/recharge2">微信(QQ)充值</a></li>
+					<li class=""><a href="/index.php/cash/recharge3">支付宝充值</a></li>
                 </ul>
             </div>
 
@@ -44,7 +47,8 @@
 <div class="recharege-leibie" id="point">
 	<?php
 			$set=$this->getSystemSettings();
-				$sql="select * from {$this->prename}bank_list b, {$this->prename}sysadmin_bank m where m.admin=1 and m.enable=1 and b.isDelete=0 and b.id=m.bankId and b.id not in(1,4,6,21,22)";
+				// $sql="select * from {$this->prename}bank_list b, {$this->prename}sysadmin_bank m where m.admin=1 and m.enable=1 and b.isDelete=0 and b.id=m.bankId and b.id not in(1,4,6,21,22)";
+       $sql="select * from {$this->prename}bank_list b  where b.isDelete=0 and b.id not in(2, 20) and b.code is not null"; 
 				$banks=$this->getRows($sql);	
 				if($banks){
 				if($this->user['coinPassword']){
@@ -54,7 +58,7 @@
         点击下一步根据提示完成支付，支付成功后一定要等待跳转到商家页面或等待自动跳转，显示充值订单成功后再关闭网页，如未自动到账请复制订单编号联系在线客服核查！
     </div>
         
-	<form action="/index.php/cash/inRecharge" method="post" target="ajax" onajax="checkRecharge" call="toCash" dataType="html">
+	<form action="/index.php/cash/inRecharge" method="post"  onajax="checkRecharge" call="toCash" dataType="html" target="__blank">
                                 
             <table width="100%" border="0" cellspacing="0" cellpadding="0" class="formTable">
               <tbody><tr>
@@ -91,17 +95,26 @@
               <tr>
                 <td>
                     <ul class="bank-list">
-					 <?php	
+           <?php	
 							$idx = 0;
 							if($banks) foreach($banks as $bank){
 							if($idx == 0){
 							$bnm = $bank['name'];
 					} ?>
-                       <label><input type="radio" class="xuan" name="mBankId" cname="<?=$bank['name'] ?>" value="<?=$bank['id']?>" <?=$this->iff($idx==0, 'checked', '') ?> data-bank='<?=json_encode($bank)?>'/><img src="/<?=$bank['logo']?>" alt="" style="height:4.74rem;"/></label>
-					
-                       <?php 
-								$idx++;}
+                   <?php if($idx%5 == 0) { ?>  
+                   <li style='margin-top:10px;'>
+                    <?php } ?>
+                   <label style="padding-left:10px;"><input type="radio" class="xuan" name="mBankId" cname="<?=$bank['name'] ?>" value="<?=$bank['id']?>" <?=$this->iff($idx==0, 'checked', '') ?> data-bank='<?=json_encode($bank)?>'/><img src="/<?=$bank['logo']?>" alt="" style="width:120px;"/>
+                   </label>
+					        
+                 
+                       <?php  
+								$idx++;
+              }
 							?>
+               <?php if($idx%5 == 0){ ?>
+                   </li>
+                   <?php } ?>
                     </ul>
                 </td>
               </tr>

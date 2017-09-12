@@ -203,27 +203,24 @@ class Cash extends WebLoginBase{
 	/* 进入充值，生产充值订单 */
 	public final function inRecharge(){
 
-		//echo 123;exit(0);
 		if(!$_POST) throw new Exception('参数出错');
 		$para['mBankId']=intval($_POST['mBankId']);
 		$para['amount']=floatval($_POST['amount']);
-           //$para['mBankId']=3;
-		if($para['amount']<=0) throw new Exception('充值金额错误，请重新操作');
-		//if($id=$this->getValue("select bankId from {$this->prename}sysadmin_bank where id=?",$para['mBankId'])){
-		//	if($id==2 || $id==3){
-			$bankInfo=$this->getRow("select * from {$this->prename}bank_list where id=?",$para['mBankId']);
-			if(!$bankInfo) throw new Exception('银行不存在');
-    //            if($bankInfo=$this->getRow("select * from {$this->prename}bank_list where id=?",$para['mBankId'])){
-	// //		echo json_encode($bankInfo);exit;
-	// 		if($bankInfo['id']== 2 || $bankInfo['id']==20){		
-	// 	if($para['amount']<$this->settings['rechargeMin1'] || $para['amount']>$this->settings['rechargeMax1']) throw new Exception('支付宝/财付通充值最低'.$this->settings['rechargeMin1'].'元，最高'.$this->settings['rechargeMax1'].'元');
-	// 		}else{
-	// 			if($para['amount']<$this->settings['rechargeMin'] || $para['amount']>$this->settings['rechargeMax']) throw new Exception('银行卡充值最低'.$this->settings['rechargeMin1'].'元，最高'.$this->settings['rechargeMax1'].'元');
-	// 		}
-	// 	}else{
-	// 			throw new Exception('充值银行不存在，请重新选择');
-	// 		}
 
+		if($para['amount']<=0) throw new Exception('充值金额错误，请重新操作');
+		if($id=$this->getValue("select bankId from {$this->prename}sysadmin_bank where id=?",$para['mBankId'])){
+			if($id==2 || $id==3){
+				if($para['amount']<$this->settings['rechargeMin1'] || $para['amount']>$this->settings['rechargeMax1']) throw new Exception('支付宝/财付通充值最低'.$this->settings['rechargeMin1'].'元，最高'.$this->settings['rechargeMax1'].'元');
+			}else{
+				if($para['amount']<$this->settings['rechargeMin'] || $para['amount']>$this->settings['rechargeMax']) throw new Exception('银行卡充值最低'.$this->settings['rechargeMin1'].'元，最高'.$this->settings['rechargeMax1'].'元');
+			}
+		}else{
+				throw new Exception('充值银行不存在，请重新选择');
+			}
+
+		//if(strtolower($_POST['vcode'])!=$_SESSION[$this->vcodeSessionName]){
+		//	throw new Exception('验证码不正确。');
+		//}else{
 			// 插入充值请求表
 			unset($para['coinpwd']);
 			$para['rechargeId']=$this->getRechId();
@@ -232,38 +229,14 @@ class Cash extends WebLoginBase{
 			$para['username']=$this->user['username'];
 			$para['actionIP']=$this->ip(true);
 			$para['info']='用户充值';
-			$para['bankId']=$bankInfo['id'];
+			$para['bankId']=$id;
+			
 			if($this->insertRow($this->prename .'member_recharge', $para)){
-			//	$this->display('cash/recharge-copy.php',0,$para);
-	$amount = number_format($para['amount'], 2, ".", "");
-//$amount = 1.00;	
-//echo $amount;
-		$signInfo = md5('MerId=90168199&OrdId='.$para['rechargeId'].'&OrdAmt='.$amount.'&PayType=DT&CurCode=CNY&BankCode='.$bankInfo['code'].'&ProductInfo=test&Remark=test&ReturnURL=http://103.214.170.36/py/notify.php&NotifyURL=http://103.214.170.36/index.php/pay8a44083a6434b892/notify&SignType=MD5&MerKey=H27imAMZQ2BMp32Z25QG2xhwPbG7CQ3i');
-//echo 'MerId=90168199&OrdId='.$para['rechargeId'].'&OrdAmt='.$amount.'&PayType=DT&CurCode=CNY&BankCode='.$bankInfo['code'].'&ProductInfo=test&Remark=test&ReturnURL=http://www.baidu.com&NotifyURL=http://www.baidu.com&SignType=MD5&MerKey=H27imAMZQ2BMp32Z25QG2xhwPbG7CQ3i';
-//exit;
-	echo '
-	   <form action="http://cashier.duoduojump.com/payment/" method="post" name="orderForm">
-		<input type="hidden" name="MerId"  value="90168199"> 	
-		<input type="hidden" name="OrdId"  value="'.$para['rechargeId'].'">
-		<input type="hidden" name="OrdAmt"  value="'.$amount.'">
-		<input type="hidden" name="PayType"  value="DT">
-		<input type="hidden" name="CurCode"  value="CNY">
-		<input type="hidden" name="BankCode"  value="'.$bankInfo['code'].'">
-		<input type="hidden" name="ProductInfo"  value="test">
-		<input type="hidden" name="Remark"  value="test">
-		<input type="hidden" name="ReturnURL"  value="http://103.214.170.36/py/notify.php">
-		<input type="hidden" name="NotifyURL"  value="http://103.214.170.36/index.php/pay8a44083a6434b892/notify">
-		<input type="hidden" name="SignType"  value="MD5">
-		<input type="hidden" name="SignInfo"   value="'.$signInfo.'">
-		</form>
-		<script type="text/javascript">
-			document.orderForm.submit();
-		</script>
-		';
+				$this->display('cash/recharge-copy.php',0,$para);
 			}else{
 				throw new Exception('充值订单生产请求出错');
 			}
-	}
+		}
 		//清空验证码session
 	   // unset($_SESSION[$this->vcodeSessionName]);
 	//}

@@ -157,3 +157,4 @@ function qqkf(){
 	<?php }?>
 	return false;
 }
+</script>
