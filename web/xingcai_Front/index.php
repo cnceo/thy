@@ -579,6 +579,5 @@ function qqkf(){
                     }
                 });
             });  
-</script>
 </body>
 </html>
