@@ -46,7 +46,7 @@
 								<dd><a data="L-14" href="/index.php/index/game/14/59/193">河内5分彩</span></a></dd>
 								<dd><a data="L-19" href="/index.php/index/game/26/59/193">河内2分彩</a></dd>
                                 <dd><a data="L-6" href="/index.php/index/game/12/2/12">新疆时时彩</a></dd>
-								<dd><a data="L-19" href="/index.php/index/game/75/59/193">巴西快乐彩</a></dd>
+								<dd><a data="L-19" href="/index.php/index/game/75/59/193">好运分分彩</a></dd>
                                 <dd><a data="L-25" href="/index.php/index/game/76/59/193">巴西1.5分彩<span style="margin-left: 10px;" class="new"></span></a></dd>
 						
 								
