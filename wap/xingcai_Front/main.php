@@ -118,7 +118,7 @@ $kjDiffTime = strtotime($lastNo['actionTime']) - $this->time;
 										<li><a href="/index.php/index/game/26/59/193">河内2分彩<i>H</i></a> </li>
 										<li><a href="/index.php/index/game/14/59/193">河内五分彩<i>H</i></a></li>
 										<li><a href="/index.php/index/game/76/59/193">巴西1.5分彩<i>H</i></a></li>
-										<li><a href="/index.php/index/game/75/59/193">巴西快乐彩<i>H</i></a></li>
+										<li><a href="/index.php/index/game/75/59/193">好运分分彩<i>H</i></a></li>
 										
 										<!-- comingsoon();  如果需要禁用用这个函数即可--> 
 									</ul>
