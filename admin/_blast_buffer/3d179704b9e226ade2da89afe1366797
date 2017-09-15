@@ -20,9 +20,9 @@
 	<article class="stats_overview" style="margin:10px;">
 				<div class="overview_today">
 			<p class="overview_day">今日统计</p>
-			<p class="overview_count" style="color:#76a4fa"><span style='color:#76a4fa'>1580.00</span></p>
+			<p class="overview_count" style="color:#76a4fa">0.00</p>
 			<p class="overview_type">盈亏</p>
-			<p class="overview_count" style="color:#81c65b">6480.00</p>
+			<p class="overview_count" style="color:#81c65b">0.00</p>
 			<p class="overview_type">投注额</p>
 		</div>
 				<div class="overview_previous">
@@ -56,17 +56,17 @@
 	</thead> 
 	<tbody> 
 		<tr> 
-			<td>27</td>
-			<td>13</td> 
-			<td>14</td>
+			<td>35</td>
+			<td>14</td> 
+			<td>21</td>
             <td>0</td> 			
-			<td>1</td> 
-            <td>6480.000</td>			
-			<td>4900.000</td>
+			<td>0</td> 
+            <td>0</td>			
+			<td>0</td>
 			<td>0</td>			
 			<td>0</td>
 			<td>0</td> 
-			<td>1,018,380</td> 
+			<td>1,018,683</td> 
 		</tr> 
 	</tbody> 
 	</table>
@@ -75,15 +75,15 @@
 <article class="module width_full">
     <header><h3 class="tabs_involved">彩种投注金额统计<span class="spn1">（彩种名称：投注金额）</span></h3></header>
     <div class="module_content">
-	        <div class="cztz"><span class="title">重庆时时彩</span><span class="spn2">￥7,850.02</span></div>
+	        <div class="cztz"><span class="title">重庆时时彩</span><span class="spn2">￥7,852.02</span></div>
 	        <div class="cztz"><span class="title">江西时时彩</span><span class="spn2">￥0.00</span></div>
-	        <div class="cztz"><span class="title">福彩3D</span><span class="spn2">￥0.00</span></div>
-	        <div class="cztz"><span class="title">排列三</span><span class="spn2">￥0.00</span></div>
+	        <div class="cztz"><span class="title">福彩3D</span><span class="spn2">￥2.00</span></div>
+	        <div class="cztz"><span class="title">排列三</span><span class="spn2">￥2.00</span></div>
 	        <div class="cztz"><span class="title">新疆时时彩</span><span class="spn2">￥4.00</span></div>
 	        <div class="cztz"><span class="title">河内5分彩</span><span class="spn2">￥0.00</span></div>
 	        <div class="cztz"><span class="title">河内2分彩</span><span class="spn2">￥2.00</span></div>
-	        <div class="cztz"><span class="title">北京PK拾</span><span class="spn2">￥2.00</span></div>
-	        <div class="cztz"><span class="title">腾讯分分彩</span><span class="spn2">￥12.00</span></div>
+	        <div class="cztz"><span class="title">北京PK拾</span><span class="spn2">￥4.00</span></div>
+	        <div class="cztz"><span class="title">腾讯分分彩</span><span class="spn2">￥1,014.00</span></div>
 	        <div class="cztz"><span class="title">天津时时彩</span><span class="spn2">￥2.00</span></div>
 	        <div class="cztz"><span class="title">澳门时时彩</span><span class="spn2">￥0.00</span></div>
 	        <div class="cztz"><span class="title">台湾时时彩</span><span class="spn2">￥0.00</span></div>
@@ -91,17 +91,17 @@
 	        <div class="cztz"><span class="title">台湾快3</span><span class="spn2">￥0.00</span></div>
 	        <div class="cztz"><span class="title">澳门PK拾</span><span class="spn2">￥0.00</span></div>
 	        <div class="cztz"><span class="title">台湾PK拾</span><span class="spn2">￥4.00</span></div>
-	        <div class="cztz"><span class="title">澳门11选5</span><span class="spn2">￥0.00</span></div>
+	        <div class="cztz"><span class="title">澳门11选5</span><span class="spn2">￥4.00</span></div>
 	        <div class="cztz"><span class="title">台湾11选5</span><span class="spn2">￥0.00</span></div>
 	        <div class="cztz"><span class="title">澳门3D</span><span class="spn2">￥0.00</span></div>
 	        <div class="cztz"><span class="title">台湾3D</span><span class="spn2">￥0.00</span></div>
 	        <div class="cztz"><span class="title">澳门幸运农场</span><span class="spn2">￥2.00</span></div>
 	        <div class="cztz"><span class="title">台湾幸运农场</span><span class="spn2">￥0.00</span></div>
-	        <div class="cztz"><span class="title">澳门快乐8</span><span class="spn2">￥4.00</span></div>
+	        <div class="cztz"><span class="title">澳门快乐8</span><span class="spn2">￥8.00</span></div>
 	        <div class="cztz"><span class="title">韩国快乐8</span><span class="spn2">￥0.00</span></div>
-	        <div class="cztz"><span class="title">巴西快乐彩</span><span class="spn2">￥0.00</span></div>
+	        <div class="cztz"><span class="title">好运分分彩</span><span class="spn2">￥0.00</span></div>
 	        <div class="cztz"><span class="title">巴西1.5分彩</span><span class="spn2">￥0.00</span></div>
-	        <div class="cztz"><span class="title">江苏快3</span><span class="spn2">￥0.00</span></div>
+	        <div class="cztz"><span class="title">江苏快3</span><span class="spn2">￥2.00</span></div>
 	    </div>
 </article>
 
@@ -118,7 +118,7 @@
 			<div class="cztz"><span class="title">任四单式</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">前三复式</span><span class="spn2">￥20.00 / 1注</span></div>
 			<div class="cztz"><span class="title">前三单式</span><span class="spn2">￥0.00 / 注</span></div>
-			<div class="cztz"><span class="title">后三复式</span><span class="spn2">￥68.00 / 34注</span></div>
+			<div class="cztz"><span class="title">后三复式</span><span class="spn2">￥70.00 / 35注</span></div>
 			<div class="cztz"><span class="title">后三单式</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">任三复式</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">任三单式</span><span class="spn2">￥0.00 / 注</span></div>
@@ -177,7 +177,7 @@
 			<div class="cztz"><span class="title">前二组选</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">前三直选</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">前三组选</span><span class="spn2">￥0.00 / 注</span></div>
-			<div class="cztz"><span class="title">直选复式</span><span class="spn2">￥0.00 / 注</span></div>
+			<div class="cztz"><span class="title">直选复式</span><span class="spn2">￥4.00 / 2注</span></div>
 			<div class="cztz"><span class="title">直选单式</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">组三</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">组六</span><span class="spn2">￥0.00 / 注</span></div>
@@ -210,17 +210,17 @@
 			<div class="cztz"><span class="title">五星单式</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">五星复式</span><span class="spn2">￥2.00 / 1注</span></div>
 			<div class="cztz"><span class="title">猜冠军</span><span class="spn2">￥0.00 / 注</span></div>
-			<div class="cztz"><span class="title">猜冠亚军</span><span class="spn2">￥6.00 / 3注</span></div>
+			<div class="cztz"><span class="title">猜冠亚军</span><span class="spn2">￥8.00 / 4注</span></div>
 			<div class="cztz"><span class="title">猜前三名</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">定位胆选</span><span class="spn2">￥0.00 / 注</span></div>
-			<div class="cztz"><span class="title">选一</span><span class="spn2">￥4.00 / 2注</span></div>
+			<div class="cztz"><span class="title">选一</span><span class="spn2">￥8.00 / 4注</span></div>
 			<div class="cztz"><span class="title">选二</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">选三</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">选四</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">选五</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">选六</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">选七</span><span class="spn2">￥0.00 / 注</span></div>
-			<div class="cztz"><span class="title">和值</span><span class="spn2">￥0.00 / 注</span></div>
+			<div class="cztz"><span class="title">和值</span><span class="spn2">￥2.00 / 1注</span></div>
 			<div class="cztz"><span class="title">三同号通选</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">三同号单选</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">二同号复选</span><span class="spn2">￥0.00 / 注</span></div>
@@ -241,7 +241,7 @@
 			<div class="cztz"><span class="title">任选四单式</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">前三复式</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">前三单式</span><span class="spn2">￥0.00 / 注</span></div>
-			<div class="cztz"><span class="title">后三复式</span><span class="spn2">￥10.00 / 5注</span></div>
+			<div class="cztz"><span class="title">后三复式</span><span class="spn2">￥12.00 / 6注</span></div>
 			<div class="cztz"><span class="title">后三单式</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">任选三复式</span><span class="spn2">￥2.00 / 1注</span></div>
 			<div class="cztz"><span class="title">任选三单式</span><span class="spn2">￥0.00 / 注</span></div>
@@ -268,7 +268,7 @@
 			<div class="cztz"><span class="title">前三不定胆</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">中三不定胆</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">任选三不定胆</span><span class="spn2">￥0.00 / 注</span></div>
-			<div class="cztz"><span class="title">前二大小单双</span><span class="spn2">￥0.00 / 注</span></div>
+			<div class="cztz"><span class="title">前二大小单双</span><span class="spn2">￥1,000.00 / 1注</span></div>
 			<div class="cztz"><span class="title">后二大小单双</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">任选大小单双</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">前三二码</span><span class="spn2">￥0.00 / 注</span></div>
@@ -332,7 +332,7 @@
 			<div class="cztz"><span class="title">前二组选和值</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">直选和值</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">组选和值</span><span class="spn2">￥0.00 / 注</span></div>
-			<div class="cztz"><span class="title">前一直选</span><span class="spn2">￥0.00 / 注</span></div>
+			<div class="cztz"><span class="title">前一直选</span><span class="spn2">￥4.00 / 2注</span></div>
 			<div class="cztz"><span class="title">前二和值</span><span class="spn2">￥0.00 / 注</span></div>
 			<div class="cztz"><span class="title">后二和值</span><span class="spn2">￥12.00 / 6注</span></div>
 			<div class="cztz"><span class="title">后二组选和值</span><span class="spn2">￥0.00 / 注</span></div>
