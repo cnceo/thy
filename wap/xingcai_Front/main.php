@@ -130,7 +130,7 @@ $kjDiffTime = strtotime($lastNo['actionTime']) - $this->time;
 									<ul class="lot_list">
 										<li><a href="/index.php/index/game/20">北京PK拾<i class="m-yellow">N</i></a> </li>
 										<li><a href="/index.php/index/game/65">澳门PK拾<i class="m-yellow">N</i></a> </li>
-										<li><a href="/index.php/index/game/66">台湾PK拾<i class="m-yellow">N</i></a> </li>
+										<li><a href="/index.php/index/game/66">台湾PK拾123<i class="m-yellow">N</i></a> </li>
 									</ul>
 								</dd>
 							</dl>

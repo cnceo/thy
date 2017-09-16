@@ -78,7 +78,7 @@
 									<ul class="lot_list">
 										<li><a href="/index.php/index/game/20">北京PK拾<i class="m-yellow">N</i></a> </li>
 										<li><a href="/index.php/index/game/65">澳门PK拾<i class="m-yellow">N</i></a> </li>
-										<li><a href="/index.php/index/game/66">台湾PK拾<i class="m-yellow">N</i></a> </li>
+										<li><a href="/index.php/index/game/66">台湾PK拾123<i class="m-yellow">N</i></a> </li>
 									</ul>
 								</dd>
 							</dl>
@@ -402,7 +402,7 @@
 							
 							</a>
 							<i class="smDot">新</i>
-							<p class="lottName">台湾PK拾</p>
+							<p class="lottName">台湾PK拾123</p>
 						</div>
 				</li>
 				
@@ -554,25 +554,26 @@
 							<p class="lottName">澳门PK拾</p>
 						</div>
 				</li>
-				<li>
+
+				<!--li>
 					<div class="lotteryBox">
 							<a class="tw_PK10" href="/index.php/index/game/66">
 							
 							</a>
 							<i class="smDot">新</i>
-							<p class="lottName">台湾PK拾</p>
+							<p class="lottName">台湾PK拾123</p>
 						</div>
 				</li>
 				
 				
-				<!--li>
+				<li>
 					<div class="lotteryBox">
 							<a class="xg_6hc" href="/index.php/index/game/34">
 							
 							</a>
 							<p class="lottName">香港六合彩</p>
 						</div>
-				</li-->
+				</li>
 				
 				<li>
 					<div class="lotteryBox">
@@ -649,7 +650,7 @@
 							</a>
 							<p class="lottName">山东11选5</p>
 						</div>
-				</li>
+				</li-->
 				<li>
 					<div class="lotteryBox">
 							<a class="fc_3d" href="/index.php/index/game/9">
@@ -717,10 +718,10 @@
 		
 		<!-- end选项卡 -->
 		</div>
-		    <div class="res_fx_bottm chongzhi_f_botm">
+		    <!--div class="res_fx_bottm chongzhi_f_botm">
       <b class="cz_close"></b>
       温馨提示：虚拟卡密充值，在右侧导航优惠活动里面。需要卡密请联系平台管理员
-    </div>
+    </div-->
 		</section>
 	</div>
 	<!-- 代码部分end -->
