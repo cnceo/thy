@@ -1,8 +1,8 @@
 .idea
 wap/_xingcai_buffer/systemSettings
 web/_xingcai_buffer/systemSettings
-<<<<<<< HEAD
 web/_xingcai_buffer/*
 admin/_blast_buffer/*
-=======
->>>>>>> bf7190c3fadf8a04ebd8b59e247b97d4ab39db55
+wap/_xingcai_buffer/*
+wap/_xingcai__buffer/*
+web/_xingcai_buffer/*
