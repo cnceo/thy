@@ -529,7 +529,7 @@
 				</li>
 				<li>
 					<div class="lotteryBox">
-							<a class="bx_ssc" href="/index.php/index/game/76/59/193">
+							<a class="bx_ssc" href="/index.php/index/game/75/59/193">
 								
 							</a>
 							<i class="smDot ">热</i>

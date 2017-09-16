@@ -21,7 +21,6 @@
 	$diffTime=strtotime($actionNo['actionTime'])-$this->time-$kjdTime;
 	$kjDiffTime=strtotime($lastNo['actionTime'])-$this->time;
 	}
-	
 	$logcls = "icon_pk10";
 	if($this->type==35){//天津时时彩
 		$logcls = "icon_tj_ssc";
@@ -134,7 +133,7 @@
 			<div class="lottery_num left">
 				<div class="m-t-lottery_numBox">
 				
-					<p class="lottery_history_issue">腾讯分分彩<span><?=$lastNo['actionNo']?></span> 期</p>
+					<p class="lottery_history_issue"><?= $types[$this->type]['title'] ?><span><?=$lastNo['actionNo']?></span> 期</p>
 										<div class="louhao" id="m_recen_v">
 						<a href="#">近期开奖</a>
 					</div>
