@@ -57,7 +57,7 @@ layui.use(['laypage', 'layer'], function(){
   var laypage = layui.laypage
   ,layer = layui.layer;
 
-  var nums = 10,data=eval(<?=json_encode($data)?>); //每页出现的数据量
+  var nums = 20,data=eval(<?=json_encode($data)?>); //每页出现的数据量
   
   //模拟渲染
   var render = function(curr){
@@ -85,3 +85,4 @@ layui.use(['laypage', 'layer'], function(){
   
 });
 </script>
+<div align="center"><b>尊敬的用户您好，本列表默认只显示20期，更多历史记录请查看走势分析页面.</b></div>
