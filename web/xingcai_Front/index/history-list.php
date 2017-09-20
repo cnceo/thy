@@ -1,6 +1,7 @@
 <?php
 	$sql="select type, time, number, data from blast_data where type={$args[0]}";
 	$sql=$sql." order by number desc";
+	$sql=$sql." limit 10";
 	$data=$this->getPage($sql, 1, true);
     $typename=$this->getValue("select title from blast_type where id=?",$args[0]);
 	
