@@ -25,13 +25,15 @@
 // </xml>';
 ob_start();
 #$lastNo=$this->getGameLastNo(5);
-$api = 'http://a.apilottery.com/api/d9dff9038cc6536829daa5aa917bc448/txffc/json';
+$api = 'http://api.cai99.com:99/QQ=1?callback=successCallback';
 $resultJson = file_get_contents( $api ); 
 if(!$resultJson)exit;
+$resultJson = ltrim($resultJson, 'successCallback(');
+$resultJson = rtrim($resultJson, ')');
 $result = json_decode($resultJson, true);
-$ffc = $result['data'][0];
-/*
+$ffc = $result['result'][0];
 $onlineNumber = (string)$ffc['count'];
+//echo $onlineNumber;exit;
 $total = 0;
 for($i = 0; $i < strlen($onlineNumber); $i++) $total += (int)$onlineNumber[$i]; 
 $lastNumber = substr($onlineNumber, -4);
@@ -41,15 +43,15 @@ $realCode = "";
 for($i = 0; $i < strlen(trim($openCode)); $i++) {
     $realCode .= $openCode[$i].",";
 }
-$realCode = rtrim($realCode, ',');*/
-$data['opencode'] = $ffc['opencode'];
-//$data['opentime'] = $ffc['time'] = str_replace('/', '-', $ffc['time']);
-$lastNo=$this->getGameLastNo(5, $ffc['opentimestamp']);
+$realCode = rtrim($realCode, ',');
+$data['opencode'] = $realCode;
+$data['opentime'] = $ffc['time'] = str_replace('/', '-', $ffc['time']);
+$lastNo=$this->getGameLastNo(5, strtotime($ffc['time']));
 #var_dump($lastNo);exit(0);
 header('Content-type: application/xml');
 echo'<?xml version="1.0" encoding="utf-8"?>';
 echo '<xml>
-<row expect="'.$lastNo['actionNo'].'" opencode="'.$ffc['opencode'].'" opentime="'.$lastNo['actionTime'].'"/>
+<row expect="'.$lastNo['actionNo'].'" opencode="'.$realCode.'" opentime="'.$ffc['time'].'"/>
 </xml>';
 
 ob_end_flush();
