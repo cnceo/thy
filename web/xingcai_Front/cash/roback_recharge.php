@@ -36,9 +36,9 @@
         	<div id="siderbar">
                 <ul class="list clearfix">
 
-					<li class=""><a href="/index.php/cash/recharge">网银充值</a></li>
-					<li class=""><a href="/index.php/cash/recharge2">微信充值</a></li>
-					<li class=""><a href="/index.php/cash/recharge3">支付宝充值</a></li>
+					<li class="current"><a href="/index.php/cash/recharge">网银充值</a></li>
+					<li class=""><a href="/index.php/cash/recharge2">微信(QQ)充值</a></li>
+					<!--li class=""><a href="/index.php/cash/recharge3">支付宝充值</a></li-->
                 </ul>
             </div>
 
@@ -48,7 +48,7 @@
 	<?php
 			$set=$this->getSystemSettings();
 				// $sql="select * from {$this->prename}bank_list b, {$this->prename}sysadmin_bank m where m.admin=1 and m.enable=1 and b.isDelete=0 and b.id=m.bankId and b.id not in(1,4,6,21,22)";
-       $sql="select * from {$this->prename}bank_list b  where b.isDelete=0 and b.id not in(2,3,12,20, 21,22, 15)"; 
+       $sql="select * from {$this->prename}bank_list b  where b.isDelete=0 and b.id not in(2, 20) and b.code is not null"; 
 				$banks=$this->getRows($sql);	
 				if($banks){
 				if($this->user['coinPassword']){
@@ -58,7 +58,7 @@
         点击下一步根据提示完成支付，支付成功后一定要等待跳转到商家页面或等待自动跳转，显示充值订单成功后再关闭网页，如未自动到账请复制订单编号联系在线客服核查！
     </div>
         
-	<form action="/index.php/cash/inRecharge" method="post" target="ajax" onajax="checkRecharge" call="toCash" dataType="html">
+	<form action="/index.php/cash/inRecharge" method="post"  onajax="checkRecharge" call="toCash" dataType="html" target="__blank">
                                 
             <table width="100%" border="0" cellspacing="0" cellpadding="0" class="formTable">
               <tbody><tr>
