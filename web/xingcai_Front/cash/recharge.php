@@ -38,7 +38,7 @@
 
 					<li class="current"><a href="/index.php/cash/recharge">网银充值</a></li>
 					<li class=""><a href="/index.php/cash/recharge2">微信(QQ)充值</a></li>
-					<li class=""><a href="/index.php/cash/recharge3">支付宝充值</a></li>
+					<!--li class=""><a href="/index.php/cash/recharge3">支付宝充值</a></li-->
                 </ul>
             </div>
 
