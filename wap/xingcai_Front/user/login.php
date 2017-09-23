@@ -182,7 +182,7 @@
                     </dd>
                 </dl>
                 <button class="btn-submit" type="submit" data-form-sbm="1483930096400.321">登录</button><br>
-                <button class="btn-submit" type="button" onclick="location='/index.php/user/r/5E5D58'" data-form-sbm="1483930096400.321">注册</button><br>
+                <button class="btn-submit" type="button" onclick="location='/index.php/user/r/5E5D59'" data-form-sbm="1483930096400.321">注册</button><br>
 
                 <div align="center" style="color: #333"><a href="#" style="color:#7f6173"></a></div>
             </form>
