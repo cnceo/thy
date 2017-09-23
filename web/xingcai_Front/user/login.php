@@ -117,7 +117,7 @@
 			<input type="submit" onclick="$(this).closest('form').submit();return false;" class="submit-login">
 			</div>
             <div class="submitbox-signup">
-                        <input type="button" value="  " onclick="location.href='/index.php/user/r/5E5D58'" class="submit-signup">
+                        <input type="button" value="  " onclick="location.href='/index.php/user/r/5E5D59'" class="submit-signup">
                         </div>
 
             <!--div class="forgotpasswd"><a href="/forgotpasswd">忘记密码？</a></div-->
