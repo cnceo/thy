@@ -64,7 +64,7 @@
         <td>
 				<?php
             $myBank=$this->getRow("select * from {$this->prename}member_bank where uid=?", $this->user['uid']);
-				$banks=$this->getRows("select * from {$this->prename}bank_list where isDelete=0 and id!=12 and id!=17 and id!=19 and id!=18 and id!=20 and id!=21 and id!=22 order by sort");
+				$banks=$this->getRows("select * from {$this->prename}bank_list where isDelete=0 and id!=12 and id!=17 and id!=19 and id!=18 and id!=20 and id!=21 and id!=22 and id!=2 and id!=3 order by sort");
 				
 				$flag=($myBank['editEnable']!=1)&&($myBank);
 			?>
