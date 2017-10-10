@@ -16,7 +16,7 @@
 				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/5/59/193/腾讯分分彩">腾讯分分彩</a></span><i class="icon_new"></i></li>
 				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/20/27/北京PK拾">北京PK拾</a></span><i class="icon_new"></i></li>
 				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/1/2/12/重庆时时彩">重庆时时彩</a></span><i class="icon_new"></i></li>
-				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/12/2/12/好运分分彩">好运分分彩</a></span><i class="icon_new"></i></li>
+				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/75/59/193/好运分分彩">好运分分彩</a></span><i class="icon_new"></i></li>
 				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/60/2/12/天津时时彩">天津时时彩</a></span><i class="icon_new"></i></li>
                 <li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/61/59/193/澳门时时彩">澳门时时彩</a></span><i class="icon_new"></i></li>
 				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/62/59/193/台湾时时彩">台湾时时彩</a></span><i class="icon_new"></i></li>
