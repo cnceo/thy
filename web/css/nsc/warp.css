@@ -6,7 +6,7 @@
 .sidebar_header .sidebar_header_title { height: 28px; margin-left: 10px; width: 162px; text-align: center; font-size: 16px; color: #fff9e7; background: url(/images/nsc/warp/new.png) no-repeat center bottom; }
 
 .sidebar_con { height: 527px; }
-.sidebar_gamebox { /*height: 158px;*/ overflow: hidden; padding-left: 10px; width: 162px; }
+.sidebar_gamebox { /*height: 158px;*/ overflow: hidden; padding-left: 10px; width: 162px; padding-top: 132px;}
 .sidebar_gamebox ul li { height:32px; line-height: 30px; overflow: hidden; font-size: 12px; color: #fff; position:relative; background: url(/images/nsc/warp/lottery_list.jpg) no-repeat 0 top;}
 .sidebar_gamebox ul li .icon_new { background:url(/images/nsc/warp/lottery_sidebar_new.gif) no-repeat; width:40px; height:16px; display:block; position:absolute; top:7px; right:25px; border-radius:2px;}
 .sidebar_gamebox ul li a { color: #fff; }
