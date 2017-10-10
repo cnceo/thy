@@ -45,7 +45,7 @@ $realCode = rtrim($realCode, ',');*/
 header('Content-type: application/xml');
 echo'<?xml version="1.0" encoding="utf-8"?>';
 echo '<xml>
-<row expect="'.$ffc['expect'].'" opencode="'.$ffc['opencode'].'" opentime="'.substr($ffc['opentime'], 0, strlen($ffc['opentime']) - 2).'00"/>
+<row expect="'.substr($ffc['expect'], 0, 8).'-'.substr($ffc['expect'], 8, (strlen($ffc['expect']) - 8)).'" opencode="'.$ffc['opencode'].'" opentime="'.substr($ffc['opentime'], 0, strlen($ffc['opentime']) - 2).'00"/>
 </xml>';
 
 ob_end_flush();

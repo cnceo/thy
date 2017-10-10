@@ -10,22 +10,19 @@
 
 
 		<div class="sidebarNav">
-	<div class="sidebar_header">
-		<div class="sidebar_header_title">彩票游戏</div>
-	</div>
 	<div class="sidebar_con">
 		<div class="sidebar_gamebox">
 			<ul>
+				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/5/59/193/腾讯分分彩">腾讯分分彩</a></span><i class="icon_new"></i></li>
 				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/20/27/北京PK拾">北京PK拾</a></span><i class="icon_new"></i></li>
 				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/1/2/12/重庆时时彩">重庆时时彩</a></span><i class="icon_new"></i></li>
-				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/12/2/12/新疆时时彩">新疆时时彩</a></span><i class="icon_new"></i></li>
+				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/12/2/12/好运分分彩">好运分分彩</a></span><i class="icon_new"></i></li>
 				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/60/2/12/天津时时彩">天津时时彩</a></span><i class="icon_new"></i></li>
                 <li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/61/59/193/澳门时时彩">澳门时时彩</a></span><i class="icon_new"></i></li>
 				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/62/59/193/台湾时时彩">台湾时时彩</a></span><i class="icon_new"></i></li>
-				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/5/59/193/腾讯分分彩">腾讯分分彩</a></span><i class="icon_new"></i></li>
 				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/26/59/193/河内2分彩">河内2分彩</a></span><i class="icon_new"></i></li>
 				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/14/59/193/河内5分彩">河内5分彩</a></span><i class="icon_new"></i></li>
-				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/76/59/193/腾讯分分彩">巴西1.5分彩</a></span><i class="icon_new"></i></li>
+				<li class="sidebar_gamebox_bg"><span class="lname"><a href="/index.php/index/game/76/59/193/巴西1.5分彩">巴西1.5分彩</a></span><i class="icon_new"></i></li>
 			</ul>
 		</div>
 		<!-- <div class="sidebar_lotteries">
@@ -80,7 +77,7 @@
 		</div> -->
 		
 		<div class="sidebar_othergames">
-			<div class="sidebar_header_title"><a href="/" target="_blank">中彩</a></div>
+			<div class="sidebar_header_title"><a href="/" target="_blank">添好运</a></div>
 		</div>
 		<a href="javascript:void(0);" class="sidebar_hide">点击隐藏</a>
 	</div>

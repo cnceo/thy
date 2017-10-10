@@ -10,9 +10,6 @@
 
 
 		<div class="sidebarNav">
-	<div class="sidebar_header">
-		<div class="sidebar_header_title">彩票游戏</div>
-	</div>
 	<div class="sidebar_con">
 		<div class="sidebar_gamebox">
 			<ul>
