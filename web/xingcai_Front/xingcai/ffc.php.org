@@ -42,13 +42,14 @@ for($i = 0; $i < strlen(trim($openCode)); $i++) {
     $realCode .= $openCode[$i].",";
 }
 $realCode = rtrim($realCode, ',');*/
+$data['opencode'] = $ffc['opencode'];
+//$data['opentime'] = $ffc['time'] = str_replace('/', '-', $ffc['time']);
+$lastNo=$this->getGameLastNo(5, $ffc['opentimestamp']);
+#var_dump($lastNo);exit(0);
 header('Content-type: application/xml');
 echo'<?xml version="1.0" encoding="utf-8"?>';
-echo '<xml>';
-for($i = 0; $i < 10; $i++){
-	$ffc = $result['data'][$i];
-	echo '<row expect="'.substr($ffc['expect'], 0, 8).'-'.substr($ffc['expect'], 8, (strlen($ffc['expect']) - 8)).'" opencode="'.$ffc['opencode'].'" opentime="'.substr($ffc['opentime'], 0, strlen($ffc['opentime']) - 2).'00"/>';
-}
-echo '</xml>';
+echo '<xml>
+<row expect="'.$lastNo['actionNo'].'" opencode="'.$ffc['opencode'].'" opentime="'.$lastNo['actionTime'].'"/>
+</xml>';
 
 ob_end_flush();
