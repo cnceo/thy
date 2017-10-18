@@ -1,5 +1,40 @@
 ﻿// 彩票开奖配置
 exports.cp=[
+
+
+	{                                                                                                         	//
+		title:'腾迅分分彩',                                                                                    	//
+		source:'腾迅分分彩',                                                                                        	//
+		name:'ffc',                                                                                           	//
+		enable:true,                                                                                         	//
+		timer:'ffc',                                                                                          	//
+		option:{                                                                                              	//腾
+			host:"103.214.170.25 ",                                                                           	//迅
+			timeout:50000,                                                                                    	//分
+			path: '/index.php/xingcai/xcffc',                                                                 	//分
+			headers:{                                                                                         	//彩
+				"User-Agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0) "                           	//
+			}                                                                                                 	//
+		},                                                                                                    	//
+		parse:function(str){                                                                                  	//
+			try{                                                                                              	//
+				str=str.substr(0,200);	                                                                      	//
+				var reg=/<row expect="([\d\-]+?)" opencode="([\d\,]+?)" opentime="([\d\:\- ]+?)"/;            	//
+				var m;                                                                                        	//
+				if(m=str.match(reg)){                                                                         	//
+					return {                                                                                  	//
+						type:5,                                                                               	//
+						time:m[3],                                                                            	//
+						number:m[1],                                                                          	//
+						data:m[2]                                                                             	//
+					};                                                                                        	//
+				}					                                                                          	//
+			}catch(err){                                                                                      	//
+				throw('河内1分彩解析数据不正确');                                                             	//
+			}                                                                                                 	//
+		}                                                                                                     	//
+	},	                                                                                                      	//
+	
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	{                                                                                                           //
 		title:'16彩票重庆时时彩',                                                                               //
@@ -10,7 +45,7 @@ exports.cp=[
 		option:{                                                                                                //
 			host:"103.214.170.25 ",                                                                                   //
 			timeout:50000,                                                                                      //
-			path: '/xml/cqssc/cqssc_1680210.php',                                                                      //重
+			path: '/xml/cqssc/cqssc_16cp.php',                                                                      //重
 			headers:{                                                                                           //庆
 				"User-Agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0) "                             //时
 			}                                                                                                   //时
@@ -30,186 +65,88 @@ exports.cp=[
 				}					                                                                            //
 			}catch(err){                                                                                        //
 				throw('--------16彩票重庆时时彩解析数据不正确');                                                //
-			}                   c                                                                                //
+			}                                                                                                  //
 		}                                                                                                       //
 	},	                                                                                                        //
                                                                                                                 //
-	{                                                                                                           //
-		title:'360彩票重庆时时彩',                                                                              //
-		source:'360彩票',                                                                                		//
-		name:'cqssc',                                                                                           //
-		enable:true,                                                                                           //
-		timer:'cqssc1',                                                                                          //
-		option:{                                                                                                //
-			host:"103.214.170.25 ",                                                                                   //
-			timeout:50000,                                                                                      //重
-			path: '/xml/cqssc/cqssc_360.php',                                                                       //庆
-			headers:{                                                                                           //时
-				"User-Agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0) "                             //时
-			}                                                                                                   //彩
-		},                                                                                                      //
-		parse:function(str){                                                                                    //
-			try{                                                                                                //
-				str=str.substr(0,200);	                                                                        //
-				var reg=/<row expect="([\d\-]+?)" opencode="([\d\,]+?)" opentime="([\d\:\- ]+?)"/;              //
-				var m;                                                                                          //
-				if(m=str.match(reg)){                                                                           //
-					return {                                                                                    //
-						type:1,                                                                                 //
-						time:m[3],                                                                              //
-						number:m[1],                                                                            //
-						data:m[2]                                                                               //
-					};                                                                                          //
-				}					                                                                            //
-			}catch(err){                                                                                        //
-				throw('--------360彩票重庆时时彩解析数据不正确');                                               //
-			}                                                                                                   //
-		}                                                                                                       //
-	},	                                                                                                        //
-	                                                                                                            //
-	{                                                                                                           //
-		title:'百度重庆时时彩',                                                                                 //重
-		source:'百度乐彩',                                                                                 		//庆
-		name:'cqssc',                                                                                           //时
-		enable:true,                                                                                           //时
-		timer:'cqssc2',                                                                                          //彩
-		option:{                                                                                                //
-			host:"103.214.170.25 ",                                                                                   //
-			timeout:50000,                                                                                      //
-			path: '/xml/cqssc/cqssc_cle.php',                                                                       //
-			headers:{                                                                                           //
-				"User-Agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0) "                             //
-			}                                                                                                   //
-		},                                                                                                      //
-		parse:function(str){                                                                                    //
-			try{                                                                                                //
-				str=str.substr(0,200);	                                                                        //
-				var reg=/<row expect="([\d\-]+?)" opencode="([\d\,]+?)" opentime="([\d\:\- ]+?)"/;              //
-				var m;                                                                                          //
-				if(m=str.match(reg)){                                                                           //
-					return {                                                                                    //
-						type:1,                                                                                 //
-						time:m[3],                                                                              //
-						number:m[1],                                                                            //
-						data:m[2]                                                                               //
-					};                                                                                          //
-				}					                                                                            //
-			}catch(err){                                                                                        //重
-				throw('--------百度重庆时时彩解析数据不正确');                                                  //庆
-			}                                                                                                   //时
-		}                                                                                                       //时
-    },                                                                                                          //彩
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	{                                                                                                          
+		title:'新疆时时彩',                                                                           	    	
+		source:'新疆福彩网',                                                                                 	
+		name:'xjssc',                                                                                          
+		enable:true,                                                                                           
+		timer:'xjssc',                                                                                         
+		option:{                                                                                               
+			host:"103.214.170.25 ",                                                                            
+			timeout:50000,                                                                                     
+			path: '/xml/xjssc/xjssc.php',                                                                      
+			headers:{                                                                                          
+				"User-Agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0) "                            
+			}                                                                                                  
+		},                                                                                                     
+		parse:function(str){                                                                                   
+			try{                                                                                               
+				str=str.substr(0,200);	                                                                       
+				var reg=/<row expect="([\d\-]+?)" opencode="([\d\,]+?)" opentime="([\d\:\- ]+?)"/;             
+				var m;                                                                                         
+				if(m=str.match(reg)){                                                                          
+					return {                                                                                   
+						type:12,                                                                               
+						time:m[3],                                                                             
+						number:m[1],                                                                           
+						data:m[2]                                                                              
+					};                                                                                         
+				}					                                                                           
+			}catch(err){                                                                                       
+				throw('--------新疆福利彩票解析数据不正确');                                                   
+			}                                                                                                  
+		}                                                                                                      
+	},	                                                                                                       
+                                                                                                               
+
+
+	{                                                                                                        
+		title:'天津时时彩',                                                                           	    
+		source:'天津福利彩票网',                                                                             
+		name:'tjssc',                                                                                        
+		enable:true,                                                                                        
+		timer:'tjssc',                                                                                       
+		option:{                                                                                             
+			host:"103.214.170.25 ",                                                                          
+			timeout:50000,                                                                                   
+			path: '/xml/tjssc/tjssc_129kai.php',                                                                 	
+			headers:{                                                                                        
+				"User-Agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0) "                          
+			}                                                                                                
+		},                                                                                                   
+		parse:function(str){                                                                                 
+			try{                                                                                             
+				str=str.substr(0,200);	                                                                     
+				var reg=/<row expect="([\d\-]+?)" opencode="([\d\,]+?)" opentime="([\d\:\- ]+?)"/;           
+				var m;                                                                                       
+				if(m=str.match(reg)){                                                                        
+					return {                                                                                 
+						type:60,                                                                             
+						time:m[3],                                                                           
+						number:m[1],                                                                         
+						data:m[2]                                                                            
+					};                                                                                       
+				}					                                                                         
+			}catch(err){                                                                                     
+				throw('--------天津时时彩解析数据不正确');                                                   
+			}                                                                                                
+		}                                                                                                    
+	},	                                                                                                     
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	{                                                                                                           //
-		title:'新疆时时彩',                                                                           	    	//
-		source:'新疆福彩网',                                                                                 	//
-		name:'xjssc',                                                                                           //
-		enable:true,                                                                                           //
-		timer:'xjssc',                                                                                          //
-		option:{                                                                                                //
-			host:"103.214.170.25 ",                                                                                   //
-			timeout:50000,                                                                                      //新
-			path: '/xml/xjssc/xjssc.php',                                                                       	//疆
-			headers:{                                                                                           //时
-				"User-Agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0) "                             //时
-			}                                                                                                   //彩
-		},                                                                                                      //
-		parse:function(str){                                                                                    //
-			try{                                                                                                //
-				str=str.substr(0,200);	                                                                        //
-				var reg=/<row expect="([\d\-]+?)" opencode="([\d\,]+?)" opentime="([\d\:\- ]+?)"/;              //
-				var m;                                                                                          //
-				if(m=str.match(reg)){                                                                           //
-					return {                                                                                    //
-						type:12,                                                                                //
-						time:m[3],                                                                              //
-						number:m[1],                                                                            //
-						data:m[2]                                                                               //
-					};                                                                                          //
-				}					                                                                            //
-			}catch(err){                                                                                        //
-				throw('--------新疆福利彩票解析数据不正确');                                                    //
-			}                                                                                                   //
-		}                                                                                                       //新
-	},	                                                                                                        //疆
-                                                                                                                //时
-	{                                                                                                           //时
-		title:'新疆时时彩',                                                                              		//彩
-		source:'新疆福彩网2',                                                                                	//
-		name:'xjssc',                                                                                           //
-		enable:true,                                                                                           //
-		timer:'xjssc',                                                                                          //
-		option:{                                                                                                //
-			host:"103.214.170.25 ",                                                                                   //
-			timeout:50000,                                                                                      //
-			path: '/xml/xjssc/xjssc_list_0.php',                                                                    //
-			headers:{                                                                                           //
-				"User-Agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0) "                             //
-			}                                                                                                   //
-		},                                                                                                      //
-		parse:function(str){                                                                                    //
-			try{                                                                                                //
-				str=str.substr(0,200);	                                                                        //
-				var reg=/<row expect="([\d\-]+?)" opencode="([\d\,]+?)" opentime="([\d\:\- ]+?)"/;              //
-				var m;                                                                                          //
-				if(m=str.match(reg)){                                                                           //
-					return {                                                                                    //
-						type:12,                                                                                //
-						time:m[3],                                                                              //
-						number:m[1],                                                                            //
-						data:m[2]                                                                               //
-					};                                                                                          //新
-				}					                                                                            //疆
-			}catch(err){                                                                                        //时
-				throw('--------新疆福利彩票解析数据不正确');                                                  	//时
-			}                                                                                                   //彩
-		}                                                                                                       //
-	},                                                                                         					//
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	{                                                                                                           //
-		title:'天津时时彩',                                                                           	    	//
-		source:'天津福利彩票网',                                                                                //
-		name:'tjssc',                                                                                           //
-		enable:true,                                                                                           //
-		timer:'tjssc',                                                                                          //
-		option:{                                                                                                //
-			host:"103.214.170.25 ",                                                                                   //天
-			timeout:50000,                                                                                      //津
-			path: '/xml/tjssc/tjssc.php',                                                                 		    //时
-			headers:{                                                                                           //时
-				"User-Agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0) "                             //彩
-			}                                                                                                   //
-		},                                                                                                      //
-		parse:function(str){                                                                                    //
-			try{                                                                                                //
-				str=str.substr(0,200);	                                                                        //
-				var reg=/<row expect="([\d\-]+?)" opencode="([\d\,]+?)" opentime="([\d\:\- ]+?)"/;              //
-				var m;                                                                                          //
-				if(m=str.match(reg)){                                                                           //
-					return {                                                                                    //
-						type:60,                                                                                //
-						time:m[3],                                                                              //
-						number:m[1],                                                                            //
-						data:m[2]                                                                               //
-					};                                                                                          //天
-				}					                                                                            //津
-			}catch(err){                                                                                        //时
-				throw('--------天津时时彩解析数据不正确');                                                      //时
-			}                                                                                                   //彩
-		}                                                                                                       //
-	},	                                                                                                        //
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	{                                                                                                           //
 		title:'北京pk10',                                                                           	    	//
 		source:'百度',                                                                                 			//
 		name:'bjpk10',                                                                                          //
-		enable:true,                                                                                           //
+		enable:true,                                                                                            //
 		timer:'bjpk10',                                                                                         //
 		option:{                                                                                                //
 			host:"103.214.170.25 ",                                                                                   //
@@ -236,40 +173,7 @@ exports.cp=[
 				throw('--------重庆时时彩解析数据不正确');                                                      //
 			}                                                                                                   //北
 		}                                                                                                       //京
-	},	                                                                                                        //PK
-                                                                                                                //拾
-	{                                                                                                           //
-		title:'北京pk10',                                                                              			//
-		source:'北京福彩网',                                                                                	//
-		name:'bjpk10',                                                                                          //
-		enable:false,                                                                                            //
-		timer:'bjpk10',                                                                                         //
-		option:{                                                                                                //
-			host:"103.214.170.25 ",                                                                                   //
-			timeout:50000,                                                                                      //
-			path: '/pk10/pk10_bjfucai.php',                                                                     //
-			headers:{                                                                                           //
-				"User-Agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0) "                             //
-			}                                                                                                   //
-		},                                                                                                      //
-		parse:function(str){                                                                                    //
-			try{                                                                                                //
-				str=str.substr(0,200);	                                                                        //
-				var reg=/<row expect="([\d\-]+?)" opencode="([\d\,]+?)" opentime="([\d\:\- ]+?)"/;              //
-				var m;                                                                                          //
-				if(m=str.match(reg)){                                                                           //
-					return {                                                                                    //
-						type:20,                                                                                //
-						time:m[3],                                                                              //
-						number:m[1],                                                                            //
-						data:m[2]                                                                               //北
-					};                                                                                          //京
-				}					                                                                            //PK
-			}catch(err){                                                                                        //拾
-				throw('--------北京福彩网pk10解析数据不正确');                                                  //
-			}                                                                                                   //
-		}                                                                                                       //
-	},                                                                                         					//
+	},                                                                                       					//
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -342,40 +246,6 @@ exports.cp=[
 	},                                                                                         					//
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	{                                                                                                           //
-		title:'快乐8',                                                                           				//
-		source:'北京福利彩票',                                                                                  //
-		name:'bjkl8',                                                                                           //
-		enable:true,                                                                                           //
-		timer:'bjkl8',                                                                                          //
-		option:{                                                                                                //北
-			host:"103.214.170.25 ",                                                                                   //京
-			timeout:50000,                                                                                      //快
-			path: '/xml/kl8/kl8.php',                                                                      			//乐
-			headers:{                                                                                           //8
-				"User-Agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0) "                             //
-			}                                                                                                   //
-		},                                                                                                      //
-		parse:function(str){                                                                                    //
-			try{                                                                                                //
-				str=str.substr(0,200);	                                                                        //
-				var reg=/<row expect="([\d\-]+?)" opencode="([\d\,]+?)" opentime="([\d\:\- ]+?)"/;              //
-				var m;                                                                                          //
-				if(m=str.match(reg)){                                                                           //
-					return {                                                                                    //
-						type:78,                                                                                //
-						time:m[3],                                                                              //
-						number:m[1],                                                                            //
-						data:m[2]                                                                               //北
-					};                                                                                          //京
-				}					                                                                            //快
-			}catch(err){                                                                                        //乐
-				throw('--------官网快乐8解析数据不正确');                                                	    //8
-			}                                                                                                   //
-		}                                                                                                       //
-	},	                                                                                                        //
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	{                                                                                                                             //
@@ -913,7 +783,7 @@ exports.cp=[
 		}                                                                                                     	//杏
 	},		                                                                                                  	//彩
 																												//系
-	{                                                                                                         	//统
+/*	{                                                                                                         	//统
 		title:'高速六合彩',                                                                                   	//彩
 		source:'杏彩',                                                                                        	//
 		name:'gslhc',                                                                                         	//
@@ -945,7 +815,7 @@ exports.cp=[
 			}                                                                                                 	//
 		}                                                                                                     	//
 	},		                                                                                                  	//
-																												//
+*/																												//
 	{                                                                                                         	//杏
 		title:'巴西快乐彩',                                                                                   	//彩
 		source:'杏彩',                                                                                        	//系
@@ -1078,39 +948,7 @@ exports.cp=[
 		}                                                                                                     	//
 	},		                                                                                                  	//
 																												//
-	{                                                                                                         	//
-		title:'河内1分彩',                                                                                    	//
-		source:'杏彩',                                                                                        	//
-		name:'ffc',                                                                                           	//
-		enable:true,                                                                                         	//
-		timer:'ffc',                                                                                          	//
-		option:{                                                                                              	//杏
-			host:"103.214.170.25 ",                                                                                   	//彩
-			timeout:50000,                                                                                    	//系
-			path: '/index.php/xingcai/xcffc',                                                                 	//统
-			headers:{                                                                                         	//彩
-				"User-Agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0) "                           	//
-			}                                                                                                 	//
-		},                                                                                                    	//
-		parse:function(str){                                                                                  	//
-			try{                                                                                              	//
-				str=str.substr(0,200);	                                                                      	//
-				var reg=/<row expect="([\d\-]+?)" opencode="([\d\,]+?)" opentime="([\d\:\- ]+?)"/;            	//
-				var m;                                                                                        	//
-				if(m=str.match(reg)){                                                                         	//
-					return {                                                                                  	//
-						type:5,                                                                               	//
-						time:m[3],                                                                            	//
-						number:m[1],                                                                          	//
-						data:m[2]                                                                             	//
-					};                                                                                        	//
-				}					                                                                          	//
-			}catch(err){                                                                                      	//
-				throw('河内1分彩解析数据不正确');                                                             	//
-			}                                                                                                 	//
-		}                                                                                                     	//
-	},	                                                                                                      	//
-																												//
+																											//
 	{                                                                                                         	//
 		title:'河内2分彩',                                                                                    	//
 		source:'杏彩',                                                                                        	//
@@ -1149,7 +987,7 @@ exports.cp=[
 ];                                                                                                              
 
 // 出错时等待 15                                                                                                
-exports.errorSleepTime=15;                                                                                      
+exports.errorSleepTime=5;                                                                                      
 
 // 重启时间间隔，以小时为单位，0为不重启
 //exports.restartTime=0.4;

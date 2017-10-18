@@ -9,7 +9,8 @@ exec=require('child_process').exec,
 execPath=process.argv.join(" "),
 parse=require('./kj-data/parse-calc-count.js');
 require('./String-ext.js');
-
+var connection;
+var pool  = mysql.createPool(config.dbinfo);
 // 抛出未知出错时处理
 process.on('uncaughtException', function(e){
 	console.log(e.stack);
@@ -24,8 +25,8 @@ if(config.restartTime){
 }
 
 var timers={};		// 任务记时器列表
-var encrypt_key='e10adc3949ba59abbe56e057f20f883e';
-//var   encrypt_key   = '2badf4a6b54fa8b43bea1cae3c2e75da';
+var encrypt_key='cc40bfe6d972ce96fe3a47d0f7342cb0';
+
 http.request=(function(_request){
 	return function(options,callback){
 		var timeout=options['timeout'],
@@ -68,14 +69,14 @@ getPlayedFun(runTask);
 
 //{{{
 function getPlayedFun(cb){
-	try{
-		var client=createMySQLClient();
-	}catch(err){
-		log(err);
-		return;
-	}
+	// try{
+	// 	var client=createMySQLClient();
+	// }catch(err){
+	// 	log(err);
+	// 	return;
+	// }
 	
-	client.query("select id, ruleFun from blast_played", function(err, data){
+	pool.query("select id, ruleFun from blast_played", function(err, data){
 		if(err){
 			log('读取玩法配置出错：'+err.message);
 		}else{
@@ -87,7 +88,7 @@ function getPlayedFun(cb){
 		}
 	});
 	
-	client.end();
+	//client.end();
 }
 
 function runTask(){
@@ -133,15 +134,15 @@ function run(conf){
 	log('开始从'+conf.source+'采集'+conf.title+'数据');
 	var option=JSON.parse(JSON.stringify(conf.option));
 	//option.path+='?'+(new Date()).getTime();
-	
-	http.request(option, function(res){
+	//console.log(option);
 		
+		
+	http.request(option, function(res){
 		var data="";
 		res.on("data", function(_data){
 			//console.log(_data.toString());
 			data+=_data.toString();
 		});
-		
 		res.on("end", function(){
 
 			try{
@@ -152,20 +153,20 @@ function run(conf){
 					throw('解析'+conf.title+'数据出错：'+err);
 				}
 				
-				
+				if(data.type == undefined) console.log(data);
 
 				try{
 					
 					//如果指定则直接提交
 					var tag=false;
-					var client=createMySQLClient();
-			
+					//var client=createMySQLClient();
+					
 						
-					client.query("select * from blast_data_admin where type=? and number=? limit 1", [data.type, data.number], function(err, rows){
+					pool.query("select * from blast_data_admin where type=? and number=? limit 1", [data.type, data.number], function(err, rows){
 						if(err){
 							console.log('数据库错误');
 
-							log('运行出错：%s，休眠%f秒'.format(err, config.errorSleepTime));
+							log('运行出错1111111111111：%s，休眠%f秒'.format(err, config.errorSleepTime));
 							restartTask(conf, config.errorSleepTime);
 						}else{
 							if(rows.length>0){
@@ -184,7 +185,7 @@ function run(conf){
 								
 							}
 					});
-					client.end();
+					//client.end();
 					
 					
 					
@@ -194,7 +195,8 @@ function run(conf){
 				}
 				
 			}catch(err){
-				log('运行出错：%s，休眠%f秒'.format(err, config.errorSleepTime));
+				log('运行出错222222222222222：%s，休眠%f秒'.format(err, config.errorSleepTime));
+				console.log(conf);
 				restartTask(conf, config.errorSleepTime);
 			}
 			
@@ -225,15 +227,15 @@ function submitData(data, conf){
 	log('+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++');
 	log('提交从'+conf.source+'采集的'+conf.title+'第'+data.number+'数据：'+data.data);
 	
-	try{
-		var client=mysql.createClient(config.dbinfo);
-	}catch(err){
-		throw('连接数据库失败');
-	}
+	// try{
+	// 	var client=mysql.createClient(config.dbinfo);
+	// }catch(err){
+	// 	throw('连接数据库失败');
+	// }
 	
 	data.time=Math.floor((new Date(data.time)).getTime()/1000);
 	//alert(110);
-	client.query("insert into blast_data(type, time, number, data) values(?,?,?,?)", [data.type, data.time, data.number, data.data], function(err, result){
+	pool.query("insert into blast_data(type, time, number, data) values(?,?,?,?)", [data.type, data.time, data.number, data.data], function(err, result){
 		//console.log(err);
 		if(err){
 			//console.log(err);
@@ -276,14 +278,14 @@ function submitData(data, conf){
 			restartTask(conf, config.errorSleepTime);
 		}
 	});
-	client.end();
+	//client.end();
 }
 
 function liRunData(data, conf){
 	var bjAmount = 0,zjAmount = 0;
 	getLiRunLv();
-	var client=createMySQLClient();
-	client.query("select * from blast_bets where type=? and actionNo=? and isDelete=0 and lotteryNo=''", [data.type, data.number], function(err, bets){
+	//var client=createMySQLClient();
+	pool.query("select * from blast_bets where type=? and actionNo=? and isDelete=0 and lotteryNo=''", [data.type, data.number], function(err, bets){
 		if(err){
 			log("读取投注出错："+err);
 		}else{
@@ -312,12 +314,12 @@ function liRunData(data, conf){
 				}
 			}
 	});
-	client.end();
+	//client.end();
 }
 
 function getLiRunLv(){
-	var client=createMySQLClient();
-	client.query("select value from blast_params where name='LiRunLv'", function(err, data){
+	//var client=createMySQLClient();
+	pool.query("select value from blast_params where name='LiRunLv'", function(err, data){
 		if(err){
 			LiRunLv=0;
 		}else{
@@ -326,7 +328,7 @@ function getLiRunLv(){
 			});
 		}
 	});
-	client.end();
+	//client.end();
 }
 
 function requestKj(type,number){
@@ -352,13 +354,13 @@ function createMySQLClient(){
 }
 
 function calcJ(data, flag){
-	var client=createMySQLClient();
+	//var client=createMySQLClient();
 	//判断是指定号码
 	
 	sql="select * from blast_bets where type=? and actionNo=? and isDelete=0";
 	if(flag) sql+=" and lotteryNo=''";
 	
-	client.query(sql, [data.type, data.number], function(err, bets){
+	pool.query(sql, [data.type, data.number], function(err, bets){
 		if(err){
 			//console.log(data);
 			//console.log(err.sql);
@@ -366,6 +368,7 @@ function calcJ(data, flag){
 		}else{
 			var sql, sqls=[];
 			sql='call kanJiang(?, ?, ?, ?)';
+			
 			bets.forEach(function(bet){
 				var fun;
 				
@@ -400,20 +403,18 @@ function calcJ(data, flag){
 		}
 	});
 
-	client.end();
+	//client.end();
 }
 
 function setPj(sqls, data){
 	if(sqls.length==0) throw('彩种[%f]第%s期没有投注'.format(data.type, data.number));
 	
-	var client=createMySQLClient();
-	if(client==false){
-		log('连接数据库出错，休眠%f秒继续...'.format(config.errorSleepTime));
-		setTimeout(setPj, config.errorSleepTime*1000, sqls, data);
-	}else{
-		console.log(sqls);
-		client.query(sqls.join(';'), function(err,result){
-			//console.log(result);
+	//var client=createMySQLClient();
+	//if(client==false){
+	//	log('连接数据库出错，休眠%f秒继续...'.format(config.errorSleepTime));
+	//	setTimeout(setPj, config.errorSleepTime*1000, sqls, data);
+	//}else{
+		pool.query(sqls.join(';'), function(err,result){
 			if(err){
 				console.log(err);
 			}else{
@@ -421,14 +422,13 @@ function setPj(sqls, data){
 			}
 		});
 		
-		client.end();
-	}
+		//client.end();
+	//}
 	
 }
 
 // 前台添加数据接口
 http.createServer(function(req, res){
-	
 	log('前台访问'+req.url);
 	var data='';
 	req.on('data', function(_data){
@@ -463,14 +463,14 @@ http.createServer(function(req, res){
 function submitDataInput(data){
 	log('提交从前台录入第'+data.number+'数据：'+data.data);
 	
-	try{
-		var client=mysql.createClient(config.dbinfo);
-	}catch(err){
-		throw('连接数据库失败');
-	}
+	// try{
+	// 	var client=mysql.createClient(config.dbinfo);
+	// }catch(err){
+	// 	throw('连接数据库失败');
+	// }
 	
 	data.time=Math.floor((new Date(data.time)).getTime()/1000);
-	client.query("insert into blast_data(type, time, number, data) values(?,?,?,?)", [data.type, data.time, data.number, data.data], function(err, result){
+	pool.query("insert into blast_data(type, time, number, data) values(?,?,?,?)", [data.type, data.time, data.number, data.data], function(err, result){
 		if(err){
 			//console.log(err);
 			// 普通出错
@@ -493,5 +493,5 @@ function submitDataInput(data){
 		}
 	});
 
-	client.end();
+	//client.end();
 }
